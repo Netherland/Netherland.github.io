@@ -7,6 +7,27 @@
   }); // end of document ready //
 })(jQuery); // end of jQuery name space //
 
+
+// Start Openingstijden Dagen
+$(document).ready(function(){
+var d = new Date();
+var weekday = new Array(7);
+weekday[0] = "zondag";
+weekday[1] = "maandag";
+weekday[2] = "dinsdag";
+weekday[3] = "woensdag";
+weekday[4] = "donderdag";
+weekday[5] = "vrijdag";
+weekday[6] = "zaterdag";
+
+var n = weekday[d.getDay()];
+
+$('#'+n).css('background-color','#4caf50');
+
+});
+// End Openingstijden Dagen
+
+
 // Start Google Maps //
 var marker;
 function initMap() {
@@ -49,8 +70,15 @@ $('.ss').click(function(){
 });
 // End Smooth Anchor Scroll //
 
+// Start Fade In All Content Except For Parallax
 $(document).ready(function(){
     $(".bigcontent").fadeIn("slow");
 });
+// End Fade In All Content Except For Parallax
 
-$('.sn').click(sideNave('hide'));
+// Start Close SideNav on Click
+$(document).ready(function(){
+$('.sn').onclick = function() { $('.button-collapse').sideNav('hide');}; ;
+});
+// End Close SideNav on Click
+
