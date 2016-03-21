@@ -212,6 +212,12 @@ font-size:1.5rem;
 
 }
 
+.boxxy3 {
+      padding: 10px;
+  background-color: #ffedb8;
+  border-radius: 20px;
+}
+
 nav ul a:hover {
   background-color: #D9C99F !important;
 }
@@ -304,4 +310,21 @@ display:none;
 
 #openingstijden {
     border-radius:10px;
+}
+
+.toast {
+    background-color:#4caf50;
+    border-radius:10px;
+}
+
+.toast.closed {
+    background-color:#f44336;
+}
+
+.subtitle {
+    font-size:4vw;
+}
+
+.moremarginstop {
+    margin-top:50px;
 }
