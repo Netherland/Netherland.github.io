@@ -123,11 +123,11 @@ footer.page-footer .footer-copyright {
 }
 
 .lotuskleur {
-  background-color: #FEECBA !important;
+  background-color: #FEECBA;
 }
 
 .lotuskleurdonker {
-  background-color: #8D4623 !important;
+  background-color: #8D4623;
 }
 
 .brand-logo {
@@ -327,4 +327,12 @@ display:none;
 
 .moremarginstop {
     margin-top:50px;
+}
+
+.marginsides {
+    margin:0 15px;
+}
+
+page-footer {
+    background-color: #ffecb7 !important;
 }
