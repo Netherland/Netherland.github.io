@@ -336,3 +336,7 @@ display:none;
 page-footer {
     background-color: #ffecb7 !important;
 }
+
+.schotel {
+    border-radius:55px;
+}
