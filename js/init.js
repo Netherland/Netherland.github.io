@@ -1,6 +1,7 @@
 $(document).ready(function () {
-    setColorAccordingToTime();
+    setup();
     checkBrowser();
+    setColorAccordingToTime();
     $('.toast').addClass('z-depth-3');
 });
 
@@ -9,18 +10,24 @@ function checkBrowser(){
         alert('De pagina werkt niet optimaal in uw huidige browser');
     }
     else {
+        alert('open bigmama');
         $(".bigcontent").fadeIn("slow");
     }
 }
 
-(function ($) {
+function isIE() {
+    var myNav = navigator.userAgent.toLowerCase();
+    return (myNav.indexOf('msie') != -1) ? parseInt(myNav.split('msie')[1]) : false;
+}
+
+function setup(){
     $('.parallax').parallax();
     $('.button-collapse').sideNav({
         menuWidth: 240, // Default is 240
         edge: 'left', // Choose the horizontal origin
         closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
     }); // end of document ready //
-})(jQuery); // end of jQuery name space //
+}
 
 
 // Start Openingstijden Dagen
