@@ -368,3 +368,48 @@ td, th {
 .moremarginstopsmall {
     margin-top:20px;
 }
+
+.collapsible {
+    margin:0px;
+}
+
+.collapsible-body {
+    border-bottom:0px;
+}
+.menutitel span {
+    
+}
+
+.prijs {
+    float:right;
+}
+
+div.collapsible-body p {
+    padding:0.5rem;
+}
+
+div.input-field.collapsible-body {
+    margin-top:0px;
+}
+
+input#search { 
+    border-bottom:0px;
+    margin:0px;
+}
+
+.input-field {
+    background-color:white;
+}
+
+.input-field label.active {
+  -webkit-transform: none;
+          transform: none;
+}
+
+.input-field input[type=search] ~ .mdi-navigation-close, .input-field input[type=search] ~ .material-icons {
+    top: 8px;
+}
+
+.menukaart {
+    font-size:30px;
+}
