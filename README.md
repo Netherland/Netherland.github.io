@@ -9,8 +9,10 @@ Browsers tested:
 * ~~Internet Explorer 8~~
 * ~~Internet Explorer 7~~
 * ~~Internet Explorer 5~~
+
 * Google Chrome 49.0.2623.87 m (64-bit)
 
+* Opera 36.0
 ## Windows 7 ##
 * Google Chrome 49
 * Google Chrome 48
