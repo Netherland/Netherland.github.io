@@ -5,19 +5,12 @@ $(document).ready(function () {
 });
 
 function checkBrowser(){  
-    if(!(isIE() && isIE () < 9)) {
-        $(".bigcontent").fadeIn("slow");
-    }
-    else {
+    if(isIE() && isIE () < 9) {
         alert('De pagina werkt niet optimaal in uw huidige browser');
     }
-    
-    alert('IE versie is : '+isIE());
-}
-
-function isIE() {
-  var myNav = navigator.userAgent.toLowerCase();
-  return (myNav.indexOf('msie') != -1) ? parseInt(myNav.split('msie')[1]) : false;
+    else {
+        $(".bigcontent").fadeIn("slow");
+    }
 }
 
 (function ($) {
