@@ -1,7 +1,5 @@
 # De Blauwe Lotus Website
 
-
-
 Browsers tested:
 
 ## Windows 8.1 64bit ##
