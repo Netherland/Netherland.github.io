@@ -2,10 +2,16 @@
 
 Wat er nog moet veranderen:
 * Menukaart bewerken met de juiste gegevens
-* Nog niet bedacht
-* Nog niet bedacht
+* Search bar functionaliteit geven
+* Menukaart stijlen
+* Parallax text boxes invullen
+* Google Maps tekstvak met adres
+* Share buttons fixen
+* Sterrenbeoordeling fixen
+* Foto's bewerken/maken
 
-Browsers tested:
+# Compability Issues
+# Browsers tested:
 
 ## Windows 8.1 64bit ##
 * ![IExplorer](https://i.solidfiles.com/dQ2ZeLpXxxPp2.png) Internet Explorer 11
