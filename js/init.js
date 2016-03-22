@@ -1,3 +1,25 @@
+$(document).ready(function () {
+    setColorAccordingToTime();
+    checkBrowser();
+    $('.toast').addClass('z-depth-3');
+});
+
+function checkBrowser(){  
+    if(!(isIE() && isIE () < 9)) {
+        $(".bigcontent").fadeIn("slow");
+    }
+    else {
+        alert('De pagina werkt niet optimaal in uw huidige browser');
+    }
+    
+    alert('IE versie is : '+isIE());
+}
+
+function isIE() {
+  var myNav = navigator.userAgent.toLowerCase();
+  return (myNav.indexOf('msie') != -1) ? parseInt(myNav.split('msie')[1]) : false;
+}
+
 (function ($) {
     $('.parallax').parallax();
     $('.button-collapse').sideNav({
@@ -9,11 +31,6 @@
 
 
 // Start Openingstijden Dagen
-$(document).ready(function () {
-    setColorAccordingToTime();
-    $('.toast').addClass('z-depth-3');
-});
-
 function setColorAccordingToTime() {
     var d = new Date();
     var weekday = new Array(7);
@@ -101,12 +118,6 @@ $('.ss').click(function () {
     return false;
 });
 // End Smooth Anchor Scroll //
-
-// Start Fade In All Content Except For Parallax
-$(document).ready(function () {
-    $(".bigcontent").fadeIn("slow");
-});
-// End Fade In All Content Except For Parallax
 
 // Start Close SideNav on Click
 function closeSideNav() {
