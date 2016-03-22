@@ -340,3 +340,31 @@ page-footer {
 .schotel {
     border-radius:55px;
 }
+
+.geopend {
+    background-color:#4caf50;
+}
+
+.gesloten {
+     background-color:#f44336;
+}
+
+th {
+    width:33%
+}
+
+td, th {
+    border-radius:0px;
+}
+
+.bleft {
+    border-top-left-radius:10px;
+}
+
+.bright {
+    border-top-right-radius:10px;
+}
+
+.moremarginstopsmall {
+    margin-top:20px;
+}

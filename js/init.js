@@ -41,12 +41,16 @@ function setColorAccordingToTime() {
     }
 
     if (isOpen) {
-        $('#' + n).css('background-color', '#4caf50');
+        $('#' + n).css('background-color', 'rgba(76,175,80,0.5)');
         showOpenStatusToast('De Blauwe Lotus is nu open!', 5000);
+        $(".geopend").show();
+        $(".gesloten").hide();
     } else {
-        $('#' + n).css('background-color', '#f44336');
+        $('#' + n).css('background-color', 'rgba(244,67,54,0.5)');
         showOpenStatusToast('De Blauwe Lotus is momenteel gesloten', 5000);
         $('.toast').addClass('closed');
+        $(".geopend").hide();
+        $(".gesloten").show();
     }
 }
 
