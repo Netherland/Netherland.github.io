@@ -1,5 +1,10 @@
 # De Blauwe Lotus Website
 
+Wat er nog moet veranderen:
+* Menukaart bewerken met de juiste gegevens
+* Nog niet bedacht
+* Nog niet bedacht
+
 Browsers tested:
 
 ## Windows 8.1 64bit ##
