@@ -1,5 +1,4 @@
 $(document).ready(function () {
-    setup();
     checkBrowser();
     setColorAccordingToTime();
     $('.toast').addClass('z-depth-3');
@@ -10,7 +9,7 @@ function checkBrowser(){
         alert('De pagina werkt niet optimaal in uw huidige browser');
     }
     else {
-        alert('open bigmama');
+        setup();
         $(".bigcontent").fadeIn("slow");
     }
 }
