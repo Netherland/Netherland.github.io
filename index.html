@@ -46,19 +46,22 @@
 
 <body>
   <div class="navbar-fixed">
-    <nav class="lotuskleur z-depth-5" role="navigation">
+    <nav class="lotuskleur z-depth-4" role="navigation">
       <div class="nav-wrapper marginsides">
         <a href="#index-banner" class="ss"><img src="img/logo.png" class="brand-logo" alt="De Blauwe Lotus"></a>
         <ul class="right hide-on-med-and-down">
           <li><a href="#bestellen" class="ss">Bestellen</a></li>
+          <li><a href="#menukaart" class="ss">Menukaart</a></li>
           <li><a href="#openingstijden" class="ss">Openingstijden</a></li>
           <li><a href="#contact" class="ss">Contact</a></li>
         </ul>
 
         <ul id="nav-mobile" class="side-nav lotuskleur">
           <li><a href="#bestellen" class="ss sn" onclick=" closeSideNav()">Bestellen</a></li>
+          <li><a href="#menukaart" class="ss sn" onclick=" closeSideNav()">Menukaart</a></li>
           <li><a href="#openingstijden" class="ss sn" onclick=" closeSideNav()">Openingstijden</a></li>
           <li><a href="#contact" class="ss sn" onclick=" closeSideNav()">Contact</a></li>
+
         </ul>
         <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons lotus-text">menu</i></a>
       </div>
@@ -248,10 +251,10 @@
       </div>
     </div>
 
-    <div class="container moremargins">
+    <div id="menukaart" class="container moremargins">
       <ul class="collapsible" data-collapsible="accordion">
         <li>
-            <div class="collapsible-header lotuskleurdonker center"><i class="material-icons ">redeem</i><span class="menukaart">Menukaart</span></div>
+            <div  class="collapsible-header lotuskleurdonker center"><i class="material-icons ">redeem</i><span class="menukaart">Menukaart</span></div>
         <div class="input-field collapsible-body">
           <input id="search" type="search" placeholder="Zoek...">
           <label><i class="material-icons">search</i></label>
