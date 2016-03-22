@@ -10,11 +10,11 @@
 
 @font-face{ 
 	font-family: 'AlexBrush';
-	src: url('../font/alexbrush/AlexBrush-webfont.eot');
-	src: url('../font/alexbrush/AlexBrush-webfont.eot?#iefix') format('embedded-opentype'),
-	     url('../font/alexbrush/AlexBrush-webfont.woff') format('woff'),
-	     url('../font/alexbrush/AlexBrush-webfont.ttf') format('truetype'),
-	     url('../font/alexbrush/AlexBrush-webfont.svg#webfont') format('svg');
+	src: url('../font/alexbrush/alexbrush-webfont.eot');
+	src: url('../font/alexbrush/alexbrush-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('../font/alexbrush/alexbrush-webfont.woff') format('woff'),
+	     url('../font/alexbrush/alexbrush-webfont.ttf') format('truetype'),
+	     url('../font/alexbrush/alexbrush-webfont.svg#webfont') format('svg');
 }
 
 nav ul a,
