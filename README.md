@@ -23,6 +23,8 @@ Browsers tested:
 * ![FireFox](https://i.solidfiles.com/zykMZLXjv8KpD.png) FireFox 43
 
 * ![IExplorer](https://i.solidfiles.com/dQ2ZeLpXxxPp2.png) ~~Internet Explorer 8~~
+* ![IExplorer](https://i.solidfiles.com/dQ2ZeLpXxxPp2.png) ~~Internet Explorer 7~~
+* ![IExplorer](https://i.solidfiles.com/dQ2ZeLpXxxPp2.png) ~~Internet Explorer 5~~
 
 * ![Opera](https://i.solidfiles.com/re7ReY4LX6rwm.png) ~~Opera 32~~
 * ![Opera](https://i.solidfiles.com/re7ReY4LX6rwm.png) ~~Opera 31~~
