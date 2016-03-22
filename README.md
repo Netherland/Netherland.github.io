@@ -1,70 +1,72 @@
 # De Blauwe Lotus Website
 
+
+
 Browsers tested:
 
 ## Windows 8.1 64bit ##
-* Internet Explorer 11
-* Internet Explorer 10
-* ~~Internet Explorer 9~~
-* ~~Internet Explorer 8~~
-* ~~Internet Explorer 7~~
-* ~~Internet Explorer 5~~
+* ![IExplorer](https://i.solidfiles.com/dQ2ZeLpXxxPp2.png) Internet Explorer 11
+* ![IExplorer](https://i.solidfiles.com/dQ2ZeLpXxxPp2.png) Internet Explorer 10
+* ![IExplorer](https://i.solidfiles.com/dQ2ZeLpXxxPp2.png) ~~Internet Explorer 9~~
+* ![IExplorer](https://i.solidfiles.com/dQ2ZeLpXxxPp2.png) ~~Internet Explorer 8~~
+* ![IExplorer](https://i.solidfiles.com/dQ2ZeLpXxxPp2.png) ~~Internet Explorer 7~~
+* ![IExplorer](https://i.solidfiles.com/dQ2ZeLpXxxPp2.png) ~~Internet Explorer 5~~
 
-* Google Chrome 49.0.2623.87 m (64-bit)
+* ![Chrome](https://i.solidfiles.com/P5ZnKv37DNGpM.png) Google Chrome 49.0.2623.87 m (64-bit)
 
-* Opera 36.0
+* ![Opera](https://i.solidfiles.com/re7ReY4LX6rwm.png) Opera 36.0
 ## Windows 7 ##
-* Google Chrome 49
-* Google Chrome 48
-* Google Chrome 47
+* ![Chrome](https://i.solidfiles.com/P5ZnKv37DNGpM.png) Google Chrome 49
+* ![Chrome](https://i.solidfiles.com/P5ZnKv37DNGpM.png) Google Chrome 48
+* ![Chrome](https://i.solidfiles.com/P5ZnKv37DNGpM.png) Google Chrome 47
 
-* FireFox 45
-* FireFox 44
-* FireFox 43
+* ![FireFox](https://i.solidfiles.com/zykMZLXjv8KpD.png) FireFox 45
+* ![FireFox](https://i.solidfiles.com/zykMZLXjv8KpD.png) FireFox 44
+* ![FireFox](https://i.solidfiles.com/zykMZLXjv8KpD.png) FireFox 43
 
-* ~~Internet Explorer 8~~
+* ![IExplorer](https://i.solidfiles.com/dQ2ZeLpXxxPp2.png) ~~Internet Explorer 8~~
 
-* ~~Opera 32~~
-* ~~Opera 31~~
-* ~~Opera 30~~
+* ![Opera](https://i.solidfiles.com/re7ReY4LX6rwm.png) ~~Opera 32~~
+* ![Opera](https://i.solidfiles.com/re7ReY4LX6rwm.png) ~~Opera 31~~
+* ![Opera](https://i.solidfiles.com/re7ReY4LX6rwm.png) ~~Opera 30~~
 
 ## Mac OSX 10.9 ##
-* Google Chrome 49
-* Google Chrome 48
-* Google Chrome 47
-* Google Chrome 46
+* ![Chrome](https://i.solidfiles.com/P5ZnKv37DNGpM.png) Google Chrome 49
+* ![Chrome](https://i.solidfiles.com/P5ZnKv37DNGpM.png) Google Chrome 48
+* ![Chrome](https://i.solidfiles.com/P5ZnKv37DNGpM.png) Google Chrome 47
+* ![Chrome](https://i.solidfiles.com/P5ZnKv37DNGpM.png) Google Chrome 46
 
-* FireFox 44
-* FireFox 43
-* FireFox 42
+* ![FireFox](https://i.solidfiles.com/zykMZLXjv8KpD.png) FireFox 44
+* ![FireFox](https://i.solidfiles.com/zykMZLXjv8KpD.png) FireFox 43
+* ![FireFox](https://i.solidfiles.com/zykMZLXjv8KpD.png) FireFox 42
 
-* Opera 32
-* Opera 31
-* Opera 30
+* ![Opera](https://i.solidfiles.com/re7ReY4LX6rwm.png) Opera 32
+* ![Opera](https://i.solidfiles.com/re7ReY4LX6rwm.png) Opera 31
+* ![Opera](https://i.solidfiles.com/re7ReY4LX6rwm.png) Opera 30
 
-* Safari 7
+* ![Safari](https://i.solidfiles.com/5wyPKzGWK7ReN.png) Safari 7
 
 ## Mac OSX 10.8 ##
-* Google Chrome 48
-* Google Chrome 47
-* Google Chrome 46
+* ![Chrome](https://i.solidfiles.com/P5ZnKv37DNGpM.png) Google Chrome 48
+* ![Chrome](https://i.solidfiles.com/P5ZnKv37DNGpM.png) Google Chrome 47
+* ![Chrome](https://i.solidfiles.com/P5ZnKv37DNGpM.png) Google Chrome 46
 
 
-* FireFox 43
-* FireFox 42
-* FireFox 41
+* ![FireFox](https://i.solidfiles.com/zykMZLXjv8KpD.png) FireFox 43
+* ![FireFox](https://i.solidfiles.com/zykMZLXjv8KpD.png) FireFox 42
+* ![FireFox](https://i.solidfiles.com/zykMZLXjv8KpD.png) FireFox 41
 
-* Opera 32
-* Opera 31
-* Opera 30
+* ![Opera](https://i.solidfiles.com/re7ReY4LX6rwm.png) Opera 32
+* ![Opera](https://i.solidfiles.com/re7ReY4LX6rwm.png) Opera 31
+* ![Opera](https://i.solidfiles.com/re7ReY4LX6rwm.png) Opera 30
 
-* Safari 6.2
+* ![Safari](https://i.solidfiles.com/5wyPKzGWK7ReN.png) Safari 6.2
 
 ## Galaxy S5 / Android 4.4 ##
-* Google Chrome 35
+* ![Chrome](https://i.solidfiles.com/P5ZnKv37DNGpM.png) Google Chrome 35
 
 ## Galaxy Note 3 / Android 4.4 ##
-* Google Chrome 44
+* ![Chrome](https://i.solidfiles.com/P5ZnKv37DNGpM.png) Google Chrome 44
 
 ## iPad 2 / iOS 4.3.3 ##
-* ~~Mobile Safari 5.0.2~~
+* ![Safari](https://i.solidfiles.com/5wyPKzGWK7ReN.png) ~~Mobile Safari 5.0.2~~
