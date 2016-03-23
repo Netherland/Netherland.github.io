@@ -19,8 +19,9 @@ var menukaart = new List('menukaart', options);
 //End Filter List
 //Start Internet Explorer Fix
 function checkBrowser(){  
-    if(isIE() && isIE () < 9) {
-        alert('De pagina werkt niet optimaal in uw huidige browser');
+    if(isIE() && isIE () < 10) {
+        alert('Deze pagina werkt niet in uw huidige browser\nU wordt nu doorgestuurd naar www.bestellen.blauwe-lotus.nl.');
+        window.location = "http://bestellen.blauwe-lotus.nl";
     }
     else {
         setup();
