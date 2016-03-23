@@ -251,7 +251,7 @@
       </div>
     </div>
 
-      <?php include 'menukaart.html';?>
+      <?php require 'menukaart.html';?>
 
     <div class="container moremargins pictextcontainer z-depth-1 center">
 
@@ -264,13 +264,13 @@
     <div class="parallax-container valign-wrapper">
       <div class="section no-pad-bot valign">
         <div class="container">
-          <div class="row center black-text">
+          <div class="row center black-text nomargins">
 
-            <div class="col s12">
+            <div class="col s4 offset-s4">
               <div class="icon-block transbg">
-<img src="img/drinken.png" class="brand-logo" alt="De Blauwe Lotus">
+<img src="img/drinken.png" class="drink" alt="Drinken">
 
-                <p class="light">Eten</p>
+                <p class="light flow-text">Gratis blikje drinken bij iedere bestelling!</p>
               </div>
             </div>
           </div>

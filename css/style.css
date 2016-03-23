@@ -374,7 +374,7 @@ td, th {
 }
 
 .collapsible-body {
-    border-bottom:0px;
+    
 }
 .menutitel span {
     
@@ -422,4 +422,12 @@ box-shadow: 0px 0px 36px 0px rgba(204,37,45,1);
 
 .micro {
     font-size:12px;
+}
+
+.drink {
+    width:100%;
+}
+
+.italic {
+    font-style: italic;
 }
