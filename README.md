@@ -3,13 +3,14 @@
 ## Wat er nog moet veranderen:
 
 * Menukaart bewerken met de juiste gegevens
-* Search bar functionaliteit geven
+* ~~Search bar functionaliteit geven~~
 * Menukaart stijlen
 * Parallax text boxes invullen
 * Google Maps tekstvak met adres
 * Share buttons fixen
 * Sterrenbeoordeling fixen
 * Foto's bewerken/maken
+* Menukaart scroll to top on open li
 
 ## Compability Issues
 
