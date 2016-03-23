@@ -291,6 +291,47 @@
         </div>
         <div class="overlay"></div>
         <div class="center moremargins z-depth-3" id="map"></div>
+        <div class="contactform center">
+              <form class="col s8 offset-s2">
+
+                <div class="row">
+                  <div class="input-field col s12 ">
+                    <i class="material-icons prefix ">account_circle</i>
+                    <input id="name" type="text" class="validate">
+                    <label for="name">Naam</label>
+                  </div></div>
+
+                  <div class="row">
+                  <div class="input-field col s12">
+                    <i class="material-icons prefix">email</i>
+                    <input id="email" type="email" class="validate">
+                    <label for="email ">E-Mail</label>
+                  </div>
+                </div>
+                <!--row-->
+
+                <div class="row">
+                  <div class="input-field col s12">
+                    <i class="material-icons prefix">subject</i>
+                    <input id="message-sub" type="email" class="validate">
+                    <label for="message-sub">Titel</label>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="input-field col s12">
+                    <i class="material-icons prefix">mode_edit</i>
+                    <textarea id="text_area" class="materialize-textarea"></textarea>
+                    <label for="text_area">Tekst</label>
+                  </div>
+                </div>
+
+
+                <div>
+                  <a class="waves-effect waves-light btn light-blue lighten-1">Stuur<i class="mdi-content-send right"></i></a>
+                </div>
+              </form>
+            </div>
       </div>
     </div>
 

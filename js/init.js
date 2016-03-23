@@ -1,15 +1,23 @@
+//Start Document Ready
 $(document).ready(function () {
     checkBrowser();
     setColorAccordingToTime();
     $('.toast').addClass('z-depth-3');
-    
+//End Document Ready
+
+//Start Functions
+
+//End Functions
+
+//Start Filter List
     var options = {
   valueNames: [ 'nummer', 'naam', 'catogorie', 'prijs' ]
 };
 
 var menukaart = new List('menukaart', options);
 });
-
+//End Filter List
+//Start Internet Explorer Fix
 function checkBrowser(){  
     if(isIE() && isIE () < 9) {
         alert('De pagina werkt niet optimaal in uw huidige browser');
@@ -28,12 +36,14 @@ function isIE() {
 function setup(){
     $('.parallax').parallax();
     $('.button-collapse').sideNav({
-        menuWidth: 240, // Default is 240
-        edge: 'left', // Choose the horizontal origin
-        closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
-    }); // end of document ready //
+        menuWidth: 240, 
+        edge: 'left', 
+        closeOnClick: true 
+    }); 
 }
 
+
+//End Internet Explorer Fix
 
 // Start Openingstijden Dagen
 function setColorAccordingToTime() {
@@ -64,12 +74,12 @@ function setColorAccordingToTime() {
 
     if (isOpen) {
         $('#' + n).css('background-color', 'rgba(76,175,80,0.5)');
-        showOpenStatusToast('De Blauwe Lotus is nu open!', 5000);
+        showOpenStatusToast('De Blauwe Lotus is nu open!', 7500);
         $(".geopend").show();
         $(".gesloten").hide();
     } else {
         $('#' + n).css('background-color', 'rgba(244,67,54,0.5)');
-        showOpenStatusToast('De Blauwe Lotus is momenteel gesloten', 5000);
+        showOpenStatusToast('De Blauwe Lotus is momenteel gesloten', 7500);
         $('.toast').addClass('closed');
         $(".geopend").hide();
         $(".gesloten").show();
