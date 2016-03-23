@@ -2,6 +2,12 @@ $(document).ready(function () {
     checkBrowser();
     setColorAccordingToTime();
     $('.toast').addClass('z-depth-3');
+    
+    var options = {
+  valueNames: [ 'nummer', 'naam', 'catogorie', 'prijs' ]
+};
+
+var menukaart = new List('menukaart', options);
 });
 
 function checkBrowser(){  

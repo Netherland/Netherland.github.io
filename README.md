@@ -3,9 +3,9 @@
 ## Wat er nog moet veranderen:
 
 * Menukaart bewerken met de juiste gegevens
-* ~~Search bar functionaliteit geven~~ search bar verwijderd ivm te veel back end
+* ~~Search bar functionaliteit geven~~
 * Menukaart stijlen
-* ~~Parallax text boxes invullen~~
+* Parallax text boxes invullen
 * Google Maps tekstvak met adres
 * Share buttons fixen
 * Sterrenbeoordeling fixen

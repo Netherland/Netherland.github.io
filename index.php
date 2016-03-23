@@ -346,6 +346,7 @@
   <script src="js/materialize.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script>
   <script src="js/init.js"></script>
+    <script src="js/list.min.js"></script>
   <!--  /JS Libraries -->
 </body>
 <!-- key=AIzaSyBohFFWtiIuJ5N7tvI7MtDFN-pIdTRd8Js& !-->
