@@ -253,6 +253,8 @@
 
       <?php require 'menukaart.html';?>
 
+            <?php require 'bezorggebied.html';?>
+
     <div class="container moremargins pictextcontainer z-depth-1 center">
 
       <div class="row nomargins ">

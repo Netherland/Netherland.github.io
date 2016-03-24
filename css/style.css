@@ -513,3 +513,17 @@ box-shadow:         0px 0px 28px 0px rgba(255, 0, 0, 0.75);}
 -moz-box-shadow:    0px 0px 0px 0px rgba(255, 255, 255, 0.75);
 box-shadow:         0px 0px 0px 0px rgba(255, 255, 255, 0.75);}
 }
+
+.nummer {
+    font-size:14px;
+}
+
+.subtext {
+    font-size:smaller;
+}
+
+.containersmall {
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+}

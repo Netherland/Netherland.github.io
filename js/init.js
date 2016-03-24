@@ -10,12 +10,19 @@ $(document).ready(function () {
 //End Functions
 
 //Start Filter List
-    var options = {
-  valueNames: [ 'nummer', 'naam', 'catogorie', 'prijs' ]
+    var Menuoptions = {
+  valueNames: [ 'nummer', 'naam', 'subtext', 'prijs' ]
 };
 
-var menukaart = new List('menukaart', options);
+    var Bezorgoptions = {
+  valueNames: [ 'postcode', 'wijknaam' ]
+};
+
+var menukaart = new List('menukaart', Menuoptions);
+var bezorggebied = new List('bezorggebied', Bezorgoptions);
 });
+
+
 //End Filter List
 //Start Internet Explorer Fix
 function checkBrowser(){  
