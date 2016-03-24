@@ -1,18 +1,24 @@
 <div id="bezorggebied" class="container moremargins">
       <ul class="collapsible" data-collapsible="accordion">
         <li class="lotuskleur">
-            <div  class="collapsible-header lotuskleurdonker center"><i class="material-icons ">location_on</i><span class="menukaart">Bezorggebied</span></div>
-          <div class="collapsible-body lotuskleur lighten-4 containersmall">
+            <div  class="collapsible-header lotuskleurdonker center"><span class="menukaart">Bezorggebied</span><br><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Dragon.svg/2000px-Dragon.svg.png" style="width:50px;"></div>
+                               <div class="input-field collapsible-body">
+          <input id="search" class="search searchbar" type="search" placeholder="Zoek op postcode of wijknaam">
+           <label class="searchlabel tooltipped" data-position="bottom" data-delay="50" data-tooltip="U kunt zoeken op naam,nummer en prijs"><i class="material-icons black-text">search</i></label>
+         </div>
+            
+            <div class="collapsible-body lotuskleur lighten-4 menucontainer bezorgcontainer">
 
-   <table class="containersmall bordered striped">
-  <tbody>
-    <tr>
+   <table class="bordered">
+      <thead>
       <th>Postcode</th>
       <th>Wijknaam</th>
       <th>Minimum</th>
       <th>Bezorging</th>
       <th style="white-space: nowrap;">Gratis v.a.</th>
-    </tr>
+    </thead>
+       <tbody class="list">
+
     <tr>
       <td class="postcode">9711</td>
       <td class="wijknaam">Groningen - Binnenstad-Zuid</td>

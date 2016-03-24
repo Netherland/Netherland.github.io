@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    
 
   <!-- Geotags -->
   <meta name="geo.placename" content="Nieuwe Ebbingestraat 111, 9712 NJ, Groningen">
@@ -268,11 +269,11 @@
         <div class="container">
           <div class="row center black-text nomargins">
 
-            <div class="col s4 offset-s4">
-              <div class="icon-block transbg">
+            <div class="col s12 m4 offset-m4">
+              <div class="icon-block transbg drinkcontainer">
 <img src="img/drinken.png" class="drink" alt="Drinken">
 
-                <p class="light flow-text morepadbtm">Gratis blikje drinken bij iedere bestelling!</p>
+                <p class="light flow-text morepadbtm">Gratis blikje drinken of loempia bij iedere bestelling!</p>
               </div>
             </div>
           </div>
@@ -350,22 +351,12 @@
         </div>
         <div class="col s12 m6 center">
           <h5 class="black-text">Connect</h5>
-          <ul id="dropdown2" class="dropdown-content z-depth-3">
 
-
-            <li class="facebook">
-              <a onclick="window.open('https://www.facebook.com/blauwelotusgroningen', 'Connect op Facebook', 'width=400px, height=700px'); return false;" class="waves-effect waves-facebook facebook center" style="color:black;"><img src="img/facebook.png" class="smedia" alt="Facebook"></a>
-            </li>
-
-            <li class="google">
-              <a onclick="window.open('https://plus.google.com/+Blauwe-lotusNl/', 'Share on Google+', 'width=400px, height=700px'); return false;" class="waves-effect waves-google google center" style="color:black;"><img src="img/google.png" class="smedia" alt="Google+"></a>
-            </li>
-
-            <li class="twitter">
-              <a href="http://twitter.com/share?url=http://www.blauwe-lotus.nl&text=Net lekker gegeten bij de Blauwe lotus" class="waves-effect waves-twitter twitter center" style="color:black;"><img src="img/twitter.png" class="smedia" alt="Twitter"></a>
-            </li>
-          </ul>
-          <a class="btn lotuskleur darken-1 dropdown-button moremargins black-text" href="#!" data-activates="dropdown2" data-beloworigin="true">Share<i class="mdi-social-share right"></i></a>
+<a href="https://www.facebook.com/sharer/sharer.php?u=htt://www.blauwe-lotus.nl&t=" title="Share on Facebook" target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&t=' + encodeURIComponent(document.URL)); return false;"><img src="img/Facebook.svg"  style="height:50px;margin-bottom:20px;"></a>
+<a href="https://twitter.com/intent/tweet?source=http://www.blauwe-lotus.nl&text=:%20http%3A%2F%2Fwww.blauwe-lotus.nl&via=blauwelotus" target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + ':%20'  + encodeURIComponent(document.URL)); return false;"><img src="img/Twitter.svg" style="height:50px;margin-bottom:20px;"></a>
+<a href="https://plus.google.com/share?url=http://www.blauwe-lotus.nl" target="_blank" title="Share on Google+" onclick="window.open('https://plus.google.com/share?url=http://www.blauwe-lotus.nl'); return false;"><img src="img/Google+.svg"  style="height:50px;margin-bottom:20px;"></a>
+        
+         
 
         </div>
       </div>
@@ -390,6 +381,13 @@
   <script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script>
   <script src="js/init.js"></script>
     <script src="js/list.min.js"></script>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
   <!--  /JS Libraries -->
 </body>
 <!-- key=AIzaSyBohFFWtiIuJ5N7tvI7MtDFN-pIdTRd8Js& !-->

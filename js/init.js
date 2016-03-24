@@ -13,13 +13,14 @@ $(document).ready(function () {
     var Menuoptions = {
   valueNames: [ 'nummer', 'naam', 'subtext', 'prijs' ]
 };
-
-    var Bezorgoptions = {
+var options2 = {
   valueNames: [ 'postcode', 'wijknaam' ]
 };
 
+
+
 var menukaart = new List('menukaart', Menuoptions);
-var bezorggebied = new List('bezorggebied', Bezorgoptions);
+var bezorggebied = new List('bezorggebied', options2);
 });
 
 
@@ -148,3 +149,4 @@ function closeSideNav() {
        
 }
 // End Close SideNav on Click
+
