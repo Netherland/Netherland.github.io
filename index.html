@@ -45,10 +45,859 @@
 </head>
 
 <body>
+  <div class="navbar-fixed">
+    <nav class="lotuskleur z-depth-4" role="navigation">
+      <div class="nav-wrapper marginsides">
+        <a href="#index-banner" class="ss"><img src="img/logo.png" class="brand-logo" alt="De Blauwe Lotus"></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#bestellen" class="ss">Bestellen</a></li>
+          <li><a href="#openingstijden" class="ss">Openingstijden</a></li>
+          <li><a href="#menukaart" class="ss">Menukaart</a></li>
+          <li><a href="#contact" class="ss">Contact</a></li>
+        </ul>
 
-          <h1> NIET GEBRUIKEN!!!! TEST PAGINA VOOR BROWSER COMPABILITEIT!!! </h1>
-          <h4>Gebruik de php pagina</h4>
+        <ul id="nav-mobile" class="side-nav lotuskleur">
+          <li><a href="#bestellen" class="ss sn" onclick=" closeSideNav()">Bestellen</a></li>
+          <li><a href="#openingstijden" class="ss sn" onclick=" closeSideNav()">Openingstijden</a></li>
+                    <li><a href="#menukaart" class="ss sn" onclick=" closeSideNav()">Menukaart</a></li>
+          <li><a href="#contact" class="ss sn" onclick=" closeSideNav()">Contact</a></li>
+
+        </ul>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons lotus-text">menu</i></a>
+      </div>
+    </nav>
+  </div>
+
+  <div id="index-banner" class="parallax-container z-depth-2 moremargins big">
+    <div class="section">
+      <div class="container margintop">
+        <h1 class="header center  text-lighten-2"><span class="boxxy3 nopadbtm"><img src="img/logo2.png" alt="De Blauwe Lotus" class="inside-logo"></span></h1>
+        <div class="row center moremarginstop">
+          <h5 class="header col s12 light black-text"><span class="boxxy2 lotuslogo-text subtitle">De nummer één in Chinese thuisbezorging</span></h5>
+
+        </div>
+
+
+      </div>
+    </div>
+    <div class="parallax z-depth-2"><img src="img/background1.jpg" alt="Blauwe Lotus"></div>
+  </div>
+  <div class="bigcontent">
+
+    <div class="container" id="bestellen">
+      <div class="section">
+<h1> Unupdated html page, see PHP page for updated version </h1>
+        <!--   Icon Section   -->
+        <div class="row nomargins">
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <div class="iconcircle">
+                <h2 class="center black-text iconsymbol"><i class="material-icons">call</i></h2></div>
+              <h5 class="center">Telefonisch bestellen</h5>
+
+              <p class="light center">U kunt ons telefonisch bereiken op<br><span class="infoimportant black-text">050-3143366</span><br><a class="btn-large moremargins waves-effect waves-light lotuskleur lighten-1 black-text lotuskleur hide-on-med-and-up z-depth-1" href="tel:0503143366">Bel Nu</a><br></p>
+            </div>
+          </div>
+
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <div class="iconcircle">
+                <h2 class="center black-text iconsymbol"><i class="material-icons">web</i></h2></div>
+              <h5 class="center">Online bestellen</h5>
+
+              <p class="light center">U kunt met de onderstaande knop bestellen op de website
+              </p>
+              <div class="row center">
+                <a class="btn-large waves-effect waves-light lotuskleur lighten-1 black-text lotuskleur hide-on-med-and-up bestelknop z-depth-1 moremargins" href="http://bestellen.blauwe-lotus.nl/">Bestel Nu</a>
+              </div>
+
+            </div>
+          </div>
+
+
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <div class="iconcircle">
+                <h2 class="center black-text iconsymbol"><i class="material-icons">business</i></h2></div>
+              <h5 class="center">Zelf afhalen</h5>
+
+              <p class="light center">U kunt ook zelf afhalen op het volgende adres<br><span class="infoimportant">Nieuwe Ebbingestraat 111<br>9712 NJ Groningen</span></p>
+              <div class="row center nomargins">
+                <a class="btn-large waves-effect waves-light lotuskleur lighten-1 black-text lotuskleur ss hide-on-med-and-up z-depth-1 moremargins" href="#map">Kaart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row hide-on-small-only center">
+          <div class="col s4"><a class="btn-large waves-effect waves-light lotuskleur lighten-1 black-text lotuskleur tooltipped z-depth-1" data-position="top" data-delay="50" data-tooltip="werkt alleen op mobiel" href="tel:0503143366">Bel Nu</a></div>
+          <div class="col s4"><a class="btn-large waves-effect waves-light lotuskleur lighten-1 black-text lotuskleur bestelknop z-depth-1" href="http://bestellen.blauwe-lotus.nl/">Bestel Nu</a></div>
+          <div class="col s4"><a class="btn-large waves-effect waves-light lotuskleur lighten-1 black-text lotuskleur ss z-depth-1" href="#map">Kaart</a></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <table class="centered bordered marginbottom lotuskleur z-depth-1 pictextcontainer" id="openingstijden">
+        <thead>
+
+          <tr>
+            <th class="gesloten bleft"></th>
+            <th class="geopend bleft"></th>
+
+            <th class="geopend">De Blauwe Lotus is nu Open!</th>
+            <th class="gesloten">De Blauwe Lotus is nu Gesloten!</th>
+
+
+            <th class="gesloten bright"></th>
+            <th class="geopend bright"></th>
+          </tr>
+          <tr>
+            <th data-field="dag">Dag</th>
+            <th data-field="openingstijden">Openingstijen</th>
+            <th data-field="bezorgtijden">Bezorgtijden</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr id="maandag">
+            <td>Maandag</td>
+            <td id="maandag-tijden">16:00 - 21:30</td>
+            <td>16:00 - 21:30</td>
+          </tr>
+          <tr id="dinsdag">
+            <td>Dinsdag</td>
+            <td id="dinsdag-tijden">16:00 - 21:30</td>
+            <td>16:00 - 21:30</td>
+          </tr>
+          <tr id="woensdag">
+            <td>Woensdag</td>
+            <td id="woensdag-tijden">16:00 - 21:30</td>
+            <td>16:00 - 21:30</td>
+          </tr>
+          <tr id="donderdag">
+            <td>Donderdag</td>
+            <td id="donderdag-tijden">16:00 - 21:30</td>
+            <td>16:00 - 21:30</td>
+          </tr>
+          <tr id="vrijdag">
+            <td>Vrijdag</td>
+            <td id="vrijdag-tijden">16:00 - 21:30</td>
+            <td>16:00 - 21:30</td>
+          </tr>
+          <tr id="zaterdag">
+            <td>Zaterdag</td>
+            <td id="zaterdag-tijden">12:00 - 21:30</td>
+            <td>12:00 - 21:30</td>
+          </tr>
+          <tr id="zondag">
+            <td>Zondag</td>
+            <td id="zondag-tijden">12:00 - 22:00</td>
+            <td>12:00 - 21:45</td>
+          </tr>
+        </tbody>
+
+        <tfoot>
+          <tr>
+            <th class="center">Dag</th>
+            <th class="center">Openingstijen</th>
+            <th class="center">Bezorgtijden</th>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+    <div class="container pictextcontainer z-depth-1">
+      <div class="row">
+        <div class="col m5 s12 center">
+          <h5>Veel ervaring</h5>
+          <p>
+            Al sinds 1989 mag de Blauwe Lotus zich verheugen op een groeiend aantal tevreden klanten.<br>
+            <br> In dat jaar werd gestart met de toen voor Nederland unieke bezorgservice van Chinese maaltijden. Hiermee werd de Blauwe Lotus de eerste bezorgchinees van Nederland.
+          </p>
+        </div>
+        <div class="col m7 s12">
+          <img src="img/inlay1.jpg" alt="Plaatje" class="z-depth-1 full-width">
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col m7 s12">
+          <img src="img/inlay2.jpg" class="z-depth-1 full-width" alt="Plaatje">
+        </div>
+        <div class="col m5 s12 center">
+          <h5>Erg bekend</h5>
+          <p>
+            Vele huishoudens, bedrijven en overheidsinstanties weten inmiddels via de telefoon en sinds kort ook via internet de weg te vinden naar een smakelijke maaltijd.<br>
+            <br>De Blauwe Lotus loopt ook nu nog steeds voorop met een uitgebreid menu van heerlijke Chinese maaltijden, bereid met de beste verse ingredi&#235;nten.<br>
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col m5 s12 center">
+          <h5>Goede service</h5>
+          <p>
+            Of u nu kiest voor onze afhaal-, bezorg-, of cateringsmaaltijden: bij de Blauwe Lotus bent u altijd verzekerd van goede service voor een zeer redelijke prijs.<br> Daarom is de Blauwe Lotus al ruim 20 jaar de nummer een van Groningen voor Chinese
+            thuisbezorgen..
+          </p>
+        </div>
+        <div class="col m7 s12">
+          <img src="img/inlay3.jpg" class="z-depth-1 full-width" alt="Plaatje">
+        </div>
+      </div>
+    </div>
+    <div class="container pictextcontainer moremargins moremarginstopsmall z-depth-1">
+      <div class="row center">
+        <h2 class="stars"><i class="mdi-action-star-rate yellow-text center starsg"></i><i class="mdi-action-star-rate yellow-text center starsg"></i><i class="mdi-action-star-rate yellow-text center starsg"></i><i class="mdi-action-star-rate yellow-text center starsg"></i><i class="mdi-action-star-rate black-text center"></i></h2>
+        <h4>Gemiddeld met 4 sterren beoordeeld</h4>
+      </div>
+    </div>
+
+      <div id="menukaart" class="container moremargins">
+      <ul class="collapsible" data-collapsible="accordion">
+        <li>
+            <div  class="collapsible-header lotuskleurdonker center"><i class="material-icons ">receipt</i><span class="menukaart">Menukaart</span></div>
+            <div class="collapsible-body flow-text center alert"><p><b>Om te bestellen druk <a href='#bestellen' class='ss'>hier</a></b></p></div>
+                     <div class="input-field collapsible-body">
+          <input id="search" class="search searchbar" type="search" placeholder="Zoek...">
+           <label class="searchlabel tooltipped" data-position="bottom" data-delay="50" data-tooltip="U kunt zoeken op naam,nummer en prijs"><i class="material-icons black-text">search</i></label>
+         </div>
+          <div class="collapsible-body lotuskleur lighten-4">
+
+            <ul class="list" id="menucontainer">
+              <li>
+                <li><div class="collapsible-header menutitel flow-text center z-depth-1 name"><b>Populaire gerechten</b></div></li>
+                <li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">1501 </span><b class="naam">Menu Aanbieding</b><span class="prijs">€ 16.80</span><br><span class="light subtext italic">2x Kippensoep of Tomatensoep, Babi Pangang,sate, Foe yong hai,Mini loempia's en Kroepkoek</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">8 </span><b class="naam">Loempia</b><span class="prijs">€ 3.20</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">10 </span><b>Kroepoek</b><span class="prijs">€ 2.30</span></p></div></li>
+   
+                <li><div class="collapsible-header menutitel flow-text center z-depth-1 name"><b>MaandMenu Aanbieding 2 pers.</b></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">1501 </span><b>Menu Aanbieding</b><span class="prijs">€ 16.80</span><br><span class="light subtext italic">2x Kippensoep of Tomatensoep, Babi Pangang,sate, Foe yong hai,Mini loempia's en Kroepkoek</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+
+                <li><div class="collapsible-header menutitel flow-text center z-depth-1 name"><b>Soepen</b></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">1 </span><b class="naam">Tomatensoep</b><span class="prijs">€ 2.50</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">2 </span><b class="naam">Kippensoep</b><span class="prijs">€ 2.50</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">3 </span><b class="naam">Haaievinnensoep</b><span class="prijs">€ 2.80</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">4 </span><b class="naam">Champignonsoep</b><span class="prijs">€ 2.80</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">5 </span><b class="naam">De Blauwe Lotus Soep</b><span class="prijs">€ 3.80</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">6 </span><b class="naam">Zure Pikante Soep</b><span class="prijs">€ 3.80</span><br><span class="light subtext italic">Uit Szechuan</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">7 </span><b class="naam">Wan Tan Soep</b><span class="prijs">€ 3.80</span></p></div></li>
  
+                <li><div class="collapsible-header menutitel flow-text center z-depth-1"><b>Voorgerechten</b></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">8 </span><b class="naam">Loempia</b><span class="prijs">€ 3.20</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">9 </span><b class="naam">Kantonese Voorjaarsrolletjes</b><span class="prijs">€ 3.50</span><br><span class="light subtext italic">3 Stuks</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">10 </span><b class="naam">Kroepoek</b><span class="prijs">€ 2.30</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">11 </span><b class="naam">Pisang Goreng</b><span class="prijs">€ 3.10</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">12 </span><b class="naam">Sate Babi Varkensvlees</b><span class="prijs">€ 4.50</span><br><span class="light subtext italic">4 Stuks</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">13 </span><b class="naam">Sate Ajam Kip</b><span class="prijs">€ 4.50</span><br><span class="light subtext italic">4 Stuks</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">14 </span><b class="naam">Sate Oedang Garnalen</b><span class="prijs">€ 9.50</span><br><span class="light subtext italic">4 Stuks</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">15 </span><b class="naam">Pangsit Goreng</b><span class="prijs">€ 4.20</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">101 </span><b class="naam">Kip Loempia</b><span class="prijs">€ 3.50</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">156 </span><b class="naam">Chicken Wings</b><span class="prijs">€ 3.70</span><br><span class="light subtext italic">6 Stuks</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">908 </span><b class="naam">Dian Sum</b><span class="prijs">€ 7.70</span><br><span class="light subtext italic">3 Soorten Warme Hapjes</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">123 </span><b class="naam">Mini Loempia</b><span class="prijs">€ 3.10</span><br><span class="light subtext italic">10 Stuks</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">1011 </span><b class="naam">Casava</b><span class="prijs">€ 2.80</span><br><span class="light subtext italic">Pikante Kroepoek</span></p></div></li>
+             
+                <li><div class="collapsible-header menutitel flow-text center z-depth-1"><b>Chinese Culinaire Gerechten</b></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">16 </span><b class="naam">Blokjes Kip In Paleissijl</b><span class="prijs">€ 13.00</span><br><span class="light subtext italic">Op z'n Szechuanees Met Cashewnoten (Pikant)</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">17 </span><b class="naam">Plakjes Runderhaas</b><span class="prijs">€ 15.20</span><br><span class="light subtext italic">Pikant Gebakken Op z'n Szechuanees</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">18 </span><b class="naam">Blokjes Kip Met Verse Ananas</b><span class="prijs">€ 11.80</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">19 </span><b class="naam">Gesauteerde Chinese Garnalen</b><span class="prijs">€ 14.30</span><br><span class="light subtext italic">Met 5 Kleuren Garnituur</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">20 </span><b class="naam">Geroosterd Varkensvlees</b><span class="prijs">€ 12.00</span><br><span class="light subtext italic">Geroosterd varkensvlees op z'n Kantonees(Cha Siu)</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">21 </span><b class="naam">Gesneden Varkensvlees</b><span class="prijs">€ 11.70</span><br><span class="light subtext italic">Met Zoetzure Vruchtengarnituur</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">22 </span><b class="naam">Plakjes Runderhaas Met Broccoli</b><span class="prijs">€ 14.20</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">23 </span><b class="naam">Peking Eend Uit De Oven</b><span class="prijs">€ 13.80</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">24 </span><b class="naam">Ma Po Tofu</b><span class="prijs">€ 11.80</span><br><span class="light subtext italic">Met Vlees</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">246 </span><b class="naam">Yu Siang Jipian</b><span class="prijs">€ 12.80</span><br><span class="light subtext italic">Gebakken Kipfilet Met Licht Pikante Yusiang Saus En Diverse Groenten</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">247 </span><b class="naam">Chaw Tja Tjing</b><span class="prijs">€ 14.20</span><br><span class="light subtext italic">Gebakken Garnalen, Ossehaas, Kipfilet Met Speciale Saus En Diverse Groenten</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">1900 </span><b class="naam">Wokmenu A</b><span class="prijs">€ 10.50</span><br><span class="light subtext italic">Varkenshaas met szechuanese saus</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">1901 </span><b class="naam">Wokmenu B</b><span class="prijs">€ 8.50</span><br><span class="light subtext italic">Kipfilet met gemengde verse groenten</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">1902 </span><b class="naam">Wokmenu C</b><span class="prijs">€ 10.20</span><br><span class="light subtext italic">Kipfilet met zwarte bonensaus</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">1903 </span><b class="naam">Wokmenu D</b><span class="prijs">€ 14.80</span><br><span class="light subtext italic">Biefstuk met Gon bao saus</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">1904 </span><b class="naam">Wokmenu E</b><span class="prijs">€ 11.50</span><br><span class="light subtext italic">Toufu met pikante maposaus en vlees</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+             
+                <li><div class="collapsible-header menutitel flow-text center z-depth-1"><b>Combinatiegerechten</b></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">25 </span><b class="naam">Tjap You Tie</b><span class="prijs">€ 11.90 </span><br><span class="light subtext italic">Tjap Tjoy, Babi Pangang En Sate</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">26 </span><b class="naam">Kai You Tie</b><span class="prijs">€ 11.90 </span><br><span class="light subtext italic">Kip, Babi Pangang En Sate</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">27 </span><b class="naam">Foe You Tie</b><span class="prijs">€ 11.90 </span><br><span class="light subtext italic">Foe Yong Hai, Babi Pangang En Sate</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">28 </span><b class="naam">Koe You Tie</b><span class="prijs">€ 12.90</span><br><span class="light subtext italic">Koe Lou Yok, Babi Pangang En Sate</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">29 </span><b class="naam">Hai You Tie</b><span class="prijs">€ 12.90</span><br><span class="light subtext italic">Garnalen, Babi Pangang En Sate</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">30 </span><b class="naam">Tjap You Foe</b><span class="prijs">€ 12.90</span><br><span class="light subtext italic">Tjap Tjoy, Babi Pangang En Foe Yong Hai</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">304 </span><b class="naam">Gado You Tie</b><span class="prijs">€ 11.90  </span><br><span class="light subtext italic">Gado Gado, Babi Pangang En Sate</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">305 </span><b class="naam">Ma You Tie</b><span class="prijs">€ 12.90</span><br><span class="light subtext italic">Rendang, Babi Pangang En Sate</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+              
+                <li><div class="collapsible-header menutitel flow-text center z-depth-1"><b>Nasi Goreng Gerechten</b></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">31 </span><b class="naam">Nasi goreng met Ei En Ham</b><span class="prijs">€ 4.50</span><br></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">32 </span><b class="naam">3 Stokjes Sate</b><span class="prijs">€ 7.70</span><br></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">33 </span><b class="naam">Speciaal</b><span class="prijs">€ 8.00</span><br><span class="light subtext italic">1/4 Kip, 1 Stokje Sate</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">34 </span><b class="naam">Babi Pangang</b><span class="prijs">€ 9.00</span><br></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">35 </span><b class="naam">Varkensvlees</b><span class="prijs">€ 8.50</span><br><span class="light subtext italic">Met Groente</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">36 </span><b class="naam">Gesneden Kip</b><span class="prijs">€ 8.50</span><br><span class="light subtext italic">Met Groente</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">37 </span><b class="naam">Gesneden Biefstuk</b><span class="prijs">€ 12.80</span><br><span class="light subtext italic">Met Groente</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">38 </span><b class="naam">Chinese Garnalen</b><span class="prijs">€ 12.80</span><br><span class="light subtext italic">Met Groente</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">39 </span><b class="naam">Compleet</b><span class="prijs">€ 12.00</span><br><span class="light subtext italic">Babi Pangang, Foe Yong Hai, Kip, Sate</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">40 </span><b class="naam">De Blauwe Lotus Speciaal</b><span class="prijs">€ 13.00</span><br><span class="light subtext italic">Babi Pangang, Garnalen, Kip, Sate, Koe Lou Yok</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">41 </span><b class="naam">Nasi Shang Hai</b><span class="prijs">€ 10.80</span><br><span class="light subtext italic">Met Groente, Geroosterd Varkensvlees, Garnalen En Kipfilet</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">111 </span><b class="naam">Su Ja Fang</b><span class="prijs">€ 9.00</span><br><span class="light subtext italic">Nasi, Kip En Babi Pangang Met Pikante Saus</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">411 </span><b class="naam">Djawa</b><span class="prijs">€ 8.50</span><br><span class="light subtext italic">Met 3 Stokjes Sate (Scherp)</span></p></div></li>
+             
+                <li><div class="collapsible-header menutitel flow-text center z-depth-1"><b>Bami Goreng Gerechten</b></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">42 </span><b class="naam">Ei En Ham</b><span class="prijs">€ 4.50</span><br></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">43 </span><b class="naam">3 Stokjes Sate</b><span class="prijs">€ 7.70</span><br></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">44 </span><b class="naam">Speciaal</b><span class="prijs">€ 8.00</span><br><span class="light subtext italic">1/4 Kip, 1 Stokje Sate</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">45 </span><b class="naam">Babi Pangang</b><span class="prijs">€ 9.00</span><br><span class="light subtext italic">Met bami</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">46 </span><b class="naam">Varkensvlees</b><span class="prijs">€ 8.50</span><br><span class="light subtext italic">Met Groente</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">47 </span><b class="naam">Gesneden Kip</b><span class="prijs">€ 8.50</span><br><span class="light subtext italic">Met Groente</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">48 </span><b class="naam">Gesneden Biefstuk</b><span class="prijs">€ 12.80</span><br><span class="light subtext italic">Met Groente</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">49 </span><b class="naam">Chinese Garnalen</b><span class="prijs">€ 12.80</span><br><span class="light subtext italic">Met Groente</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">50 </span><b class="naam">Compleet</b><span class="prijs">€ 12.00</span><br><span class="light subtext italic">Babi Pangang, Foe Yong Hai, Kip, Sate</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">51 </span><b class="naam">De Blauwe Lotus Speciaal</b><span class="prijs">€ 13.00</span><br><span class="light subtext italic">Babi Pangang, Garnalen, Kip, Sate, Koe Lou Yok</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">148 </span><b class="naam">Su Ja Min</b><span class="prijs">€ 9.00</span><br><span class="light subtext italic">Bami, Met Kip En Babi Pangang Met Pikantesaus</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">511 </span><b class="naam">Bami Shang Hai</b><span class="prijs">€ 10.80</span><br><span class="light subtext italic">Met Groente, Geroosterd Varkensvlees, Garnalen En Kipfilet
+</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">512 </span><b class="naam">Djawa</b><span class="prijs">€ 8.50</span><br><span class="light subtext italic">Met 3 Stokjes Sate (Scherp)</span></p></div></li>
+            
+                <li><div class="collapsible-header menutitel flow-text center z-depth-1"><b>Vleesgerechten</b></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">52 </span><b class="naam">Babi Pangang Mager Vlees</b><span class="prijs">€ 10.80</span><br><span class="light subtext italic">Met Pikante Saus</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">53 </span><b class="naam">Babi Pangang Met Satesaus</b><span class="prijs">€ 10.80</span><br><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">54 </span><b class="naam">Babi Pangang Met Kerrysaus</b><span class="prijs">€ 11.60</span><br><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">55 </span><b class="naam">Babi Pangang Met Champignons</b><span class="prijs">€ 11.60</span><br><span class="light subtext italic">Met Groente</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">56 </span><b class="naam">Babi Pangang Met Roedjaksaus</b><span class="prijs">€ 11.60</span><br><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">57 </span><b class="naam">Babi Pangang Met Ketjapsaus</b><span class="prijs">€ 11.60</span><br><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">58 </span><b class="naam">Koe Lou Yok</b><span class="prijs">€ 10.60</span><br><span class="light subtext italic">Met Zoetzure Saus</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">59 </span><b class="naam">Speenvarken Mager Spek</b><span class="prijs">€ 11.80</span><br><span class="light subtext italic">Met Pikante Saus</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">60 </span><b class="naam">Gesneden Varkensvlees Met Kerrysaus</b><span class="prijs">€ 10.50</span><br><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">61 </span><b class="naam">Tung Ko Zu</b><span class="prijs">€ 11.60</span><br><span class="light subtext italic">Met Chinese Champignons</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">157 </span><b class="naam">Gesneden Varkensvlees Met Ketjapsaus</b><span class="prijs">€ 10.50</span><br><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">158 </span><b class="naam">Moksie Metie</b><span class="prijs">€ 12.50</span><br><span class="light subtext italic">2 Soorten Vlees</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">160 </span><b class="naam">Spareribs Met Patat En Salade</b><span class="prijs">€ 12.50</span><br><span class="light subtext italic">(Als u kiest voor nasi, bami, witte rijst of mihoen krijgt u geen patat)</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">614 </span><b class="naam">Babi Pangang Met Ananas En Zoetzure Saus</b><span class="prijs">€ 11.60</span><br><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">615 </span><b class="naam">Gesneden Varkensvlees Met Champignons</b><span class="prijs">€ 10.20</span><br><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">616 </span><b class="naam">Gesneden Varkensvlees Met Pikante Saus</b><span class="prijs">€ 10.50</span><br><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">617 </span><b class="naam">Babi Pangang Met Zwarte Bonensaus</b><span class="prijs">€ 11.60</span><br><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">618 </span><b class="naam">Gesneden Varkensvlees Met Zwarte Bonensaus</b><span class="prijs">€ 10.80</span><br><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">619 </span><b class="naam">Gesneden Varkensvlees Met Broccoli</b><span class="prijs">€ 11.60</span><br><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+              
+                <li><div class="collapsible-header menutitel flow-text center z-depth-1"><b>Kipgerechten</b></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">62 </span><b class="naam">Gebraden Gefileerde Kip Met Pikante Saus</b><span class="prijs">€ 10.80</span><br><span class="light subtext italic">Ajam Pangang
+</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">63 </span><b class="naam">Gebraden Gefileerde Kip Met Kerrysaus</b><span class="prijs">€ 11.60</span><br><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">64 </span><b class="naam">Gebraden Gefileerde Kip Met Roedjaksaus</b><span class="prijs">€ 11.60</span><br><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">65 </span><b class="naam">Koe Lo Kai</b><span class="prijs">€ 10.60</span><br><span class="light subtext italic">Met Zoetzure Saus</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">66 </span><b class="naam">Gesneden Kipfilet Met Kerrysaus</b><span class="prijs">€ 10.50</span><br><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">67 </span><b class="naam">Gesneden Kipfilet Met Champignons</b><span class="prijs">€ 10.50</span><br><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">68 </span><b class="naam">Tung Ko Kai</b><span class="prijs">€ 11.60</span><br><span class="light subtext italic">Gesneden Kipfilet Met Chinese Champignons</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">69 </span><b class="naam">Gebraden Gefileerde Kip Met Ananas En Zoetzure Saus</b><span class="prijs">€ 11.60</span><br><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">694 </span><b class="naam">Gebraden Gefileerde Kip Met Ketjapsaus</b><span class="prijs">€ 11.60</span><br><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">695 </span><b class="naam">Gesneden Kipfilet Met Ketjapsaus</b><span class="prijs">€ 10.50</span><br><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">696 </span><b class="naam">Gebraden Gefileerde Kip Met Zwarte Bonensaus</b><span class="prijs">€ 11.60</span><br><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">697 </span><b class="naam">Gesneden Kipfilet Met Zwarte Bonensaus</b><span class="prijs">€ 10.50</span><br><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">698 </span><b class="naam">Gesneden Kipfilet Met Broccoli</b><span class="prijs">€ 11.80</span><br><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+              
+                <li><div class="collapsible-header menutitel flow-text center z-depth-1"><b>Mie Fang Gerechten</b></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">70 </span><b class="naam">Met Babi Pangang</b><span class="prijs">€ 12.50</span><br></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">71 </span><b class="naam">Met 2 Stokjes Sate</b><span class="prijs">€ 10.20</span><br><span class="light subtext italic">En Groente</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">72 </span><b class="naam">Met Varkensvlees</b><span class="prijs">€ 8.90</span><br><span class="light subtext italic">En Groente</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">73 </span><b class="naam">Met Kipfilet</b><span class="prijs">€ 8.90</span><br><span class="light subtext italic">En Groente</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">74 </span><b class="naam">Met Chinese Garnalen</b><span class="prijs">€ 13.50</span><br><span class="light subtext italic">En Groente</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">75 </span><b class="naam">Met Gesneden Biefstuk</b><span class="prijs">€ 13.50</span><br><span class="light subtext italic">En Groente</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">76 </span><b class="naam">De Blauwe Lotus</b><span class="prijs">€ 14.30</span><br><span class="light subtext italic">Babi Pangang, Garnalen, Kip, Sate, Koe Loe Yok</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">764 </span><b class="naam">Singapore</b><span class="prijs">€ 11.80</span><br><span class="light subtext italic">Geroosterd Varkensvlees, Kipfilet En Garnalen (Pikant)</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">765 </span><b class="naam">Compleet</b><span class="prijs">€ 13.60</span><br><span class="light subtext italic">Babi Pangang, Foe Yong Hai, Kip, Sate</span></p></div></li>
+              
+                <li><div class="collapsible-header menutitel flow-text center z-depth-1"><b>Groentegerechten</b></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">77 </span><b class="naam">Tjap Tjoy Met Varkensvlees</b><span class="prijs">€ 8.30</span><br><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">78 </span><b class="naam">Tjap Tjoy Met Kipfilet</b><span class="prijs">€ 8.30</span><br><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">79 </span><b class="naam">Tjap Tjoy Met Chinese Garnalen</b><span class="prijs">€ 13.50</span><br><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">80 </span><b class="naam">Tjap Tjoy Met Gesneden Biefstuk</b><span class="prijs">€ 13.50</span><br><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">81 </span><b class="naam">Tjap Tjoy Met 2 Stokjes Sate</b><span class="prijs">€ 9.50</span><br><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">814 </span><b class="naam">Tjap Tjoy Met Babi Pangang</b><span class="prijs">€ 12.50</span><br><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+              
+                <li><div class="collapsible-header menutitel flow-text center z-depth-1"><b>Eiergerechten</b></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">82 </span><b class="naam">Foe Yong Hai Met Varkensvlees</b><span class="prijs">€ 7.90</span><br><span class="light subtext italic">En Groente</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">83 </span><b class="naam">Foe Yong Hai Met Kipfilet</b><span class="prijs">€ 7.90</span><br><span class="light subtext italic">En Groente</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">84 </span><b class="naam">Foe Yong Hai Met Chinese Garnalen</b><span class="prijs">€ 12.50</span><br><span class="light subtext italic">En Groente</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">85 </span><b class="naam">Foe Yong Hai Met 2 Stokjes Sate</b><span class="prijs">€ 9.50</span><br><span class="light subtext italic">En Groente</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">86 </span><b class="naam">Foe Yong Hai Met Noorse Garnalen</b><span class="prijs">€ 10.20</span><br><span class="light subtext italic">En Groente</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">864 </span><b class="naam">Foe Yong Hai Met Gesneden Biefstuk</b><span class="prijs">€ 12.50</span><br><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">865 </span><b class="naam">Foe Yong Hai Met Babi Pangang</b><span class="prijs">€ 12.50</span><br><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+              
+                <li><div class="collapsible-header menutitel flow-text center z-depth-1"><b>Rundvleesgerechten</b></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">701 </span><b class="naam">Gesneden Biefstuk Met Kerrysaus</b><span class="prijs">€ 14.20</span><br><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">702 </span><b class="naam">Gesneden Biefstukk Met Champignons</b><span class="prijs">€ 14.20</span><br><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">703 </span><b class="naam">Gesneden Biefstuk Met Chinese Champignons</b><span class="prijs">€ 14.20</span><br><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">704 </span><b class="naam">Gesneden Biefstuk Met Zwarte Bonensaus</b><span class="prijs">€ 14.20</span><br><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">705 </span><b class="naam">Gesneden Biefstuk Met Paprika</b><span class="prijs">€ 14.20</span><br><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+              
+                <li><div class="collapsible-header menutitel flow-text center z-depth-1"><b>Garnalengerechten</b></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">87 </span><b class="naam">Gebakken Chinese Garnalen</b><span class="prijs">€ 14.40</span><br><span class="light subtext italic">Met Pikante Saus</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">88 </span><b class="naam">Chinese Garnalen Met Kerrysaus</b><span class="prijs">€ 14.40</span><br><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">89 </span><b class="naam">Chinese Garnalen Met Champignons</b><span class="prijs">€ 14.40</span><br><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">90 </span><b class="naam">Tung Ko Hai</b><span class="prijs">€ 14.70</span><br><span class="light subtext italic">Chinese Garnalen Met Chinese Champignons</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">904 </span><b class="naam">Chinese Garnalen Met Broccoli</b><span class="prijs">€ 14.70</span><br><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">905 </span><b class="naam">Chinese Garnalen Met Zwarte Bonensaus</b><span class="prijs">€ 14.40</span><br><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+              
+                <li><div class="collapsible-header menutitel flow-text center z-depth-1"><b>Kindergerechten</b></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">91 </span><b class="naam">Kip</b><span class="prijs">€ 4.50</span><br><span class="light subtext italic">Met Frites, Appelmoes En Mayonaise</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">92 </span><b class="naam">Knakworst</b><span class="prijs">€ 4.50</span><br><span class="light subtext italic">Met Frites, Appelmoes Ei, En Mayonaise</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">93 </span><b class="naam">Frikandel</b><span class="prijs">€ 4.50</span><br><span class="light subtext italic">Met Frites, Appelmoes En Mayonaise</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">94 </span><b class="naam">Halve Kip</b><span class="prijs">€ 7.00</span><br><span class="light subtext italic">Met Frites, Appelmoes En Mayonaise</span></p></div></li>
+              
+                <li><div class="collapsible-header menutitel flow-text center z-depth-1"><b>Vegetarische Gerechten</b></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">109 </span><b class="naam">Sajur Lodeh</b><span class="prijs">€ 8.20</span><br><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">114 </span><b class="naam">Gado Gado Vegetarisch</b><span class="prijs">€ 6.80</span><br><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">244 </span><b class="naam">Ma Po Tofu</b><span class="prijs">€ 11.80</span><br><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">245 </span><b class="naam">Boedhistische Vegetarische Schotel</b><span class="prijs">€ 11.80</span><br><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">311 </span><b class="naam">Nasi Goreng</b><span class="prijs">€ 4.50</span><br></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">421 </span><b class="naam">Bami Goreng</b><span class="prijs">€ 4.50</span><br></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">721 </span><b class="naam">Mie Fang Goreng</b><span class="prijs">€ 8.70</span><br><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">774 </span><b class="naam">Tjap Tjoy</b><span class="prijs">€ 8.60</span><br><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">824 </span><b class="naam">Foe Yong Hai</b><span class="prijs">€ 7.80</span><br><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+              
+                <li><div class="collapsible-header menutitel flow-text center z-depth-1"><b>Bijgerechten</b></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">95 </span><b class="naam">Halve Kip Met Pikante Saus</b><span class="prijs">€ 5.00</span><br></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">96 </span><b class="naam">Satesaus</b><span class="prijs">€ 2.20</span><br></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">97 </span><b class="naam">Pikante Saus</b><span class="prijs">€ 2.20</span><br></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">98 </span><b class="naam">Witte Rijst</b><span class="prijs">€ 2.30</span><br></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">99 </span><b class="naam">Kerrysaus</b><span class="prijs">€ 2.80</span><br></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">100 </span><b class="naam">Roedjaksaus</b><span class="prijs">€ 2.80</span><br></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">1012 </span><b class="naam">Ketjapsaus</b><span class="prijs">€ 2.80</span><br></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">1013 </span><b class="naam">Verse Salade</b><span class="prijs">€ 3.80</span><br></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">1014 </span><b class="naam">Atjar</b><span class="prijs">€ 2.20</span><br></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">1017 </span><b class="naam">Zoetzure Saus</b><span class="prijs">€ 2.20</span><br></p></div></li>
+              
+                <li><div class="collapsible-header menutitel flow-text center z-depth-1"><b>Indische Gerechten</b></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">102a </span><b class="naam">Nasi Rames met nasi</b><span class="prijs">€ 10.50</span><br></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">102b </span><b class="naam">Nasi Rames met witte rijst</b><span class="prijs">€ 10.50</span><br></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">103a </span><b class="naam">Nasi Rames Speciaal met nasi</b><span class="prijs">€ 11.50</span><br><span class="light subtext italic">Met Kip En 1 Stokje Sate</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">103b </span><b class="naam">Nasi Rames Speciaal met witte rijst</b><span class="prijs">€ 11.50</span><br><span class="light subtext italic">Met Kip En 1 Stokje Sate</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">104 </span><b class="naam">Bami Rames</b><span class="prijs">€ 10.50</span><br></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">105 </span><b class="naam">Bami Rames Speciaal</b><span class="prijs">€ 11.50</span><br></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">106 </span><b class="naam">Ajam Rica Rica</b><span class="prijs">€ 11.50</span><br><span class="light subtext italic">Drumstick Met Een Menadonese Saus</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">107 </span><b class="naam">Babi Ketjap</b><span class="prijs">€ 11.50</span><br><span class="light subtext italic">Mager Varkensspek Gesmoord Met Ketjap En Gember</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">108 </span><b class="naam">Rendang</b><span class="prijs">€ 11.90</span><br><span class="light subtext italic">Heet Rundvlees Gerecht</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">109 </span><b class="naam">Sajur Lodeh</b><span class="prijs">€ 8.20</span><br><span class="light subtext italic">Diverse Groenten</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">110 </span><b class="naam">Gado Gado Speciaal</b><span class="prijs">€ 7.00</span><br><span class="light subtext italic">Met 2 Stokjes Sate</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+              
+                <li><div class="collapsible-header menutitel flow-text center z-depth-1"><b>Dranken</b></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">140 </span><b class="naam">Coca Cola</b><span class="prijs">€ 1.50</span><br></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">141 </span><b class="naam">Sinas</b><span class="prijs">€ 1.50</span><br></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">142 </span><b class="naam">7 Up</b><span class="prijs">€ 1.50</span><br></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">143 </span><b class="naam">Spa</b><span class="prijs">€ 1.50</span><br></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">144 </span><b class="naam">Jus D Orange</b><span class="prijs">€ 1.60</span><br></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">145 </span><b class="naam">Heineken</b><span class="prijs">€ 1.70</span><br></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">146 </span><b class="naam">Witte Wijn</b><span class="prijs">€ 8.00</span><br><span class="light subtext italic">75 Cl</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">147 </span><b class="naam">Rode Wijn</b><span class="prijs">€ 8.00</span><br><span class="light subtext italic">75 Cl</span></p></div></li>
+              
+                <li><div class="collapsible-header menutitel flow-text center z-depth-1"><b>Dessert-Pudding</b></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">153 </span><b class="naam">Lychees</b><span class="prijs">€ 1.80</span><br></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">154 </span><b class="naam">Ananas</b><span class="prijs">€ 1.80</span><br></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">155 </span><b class="naam">Fruitcocktail</b><span class="prijs">€ 1.80</span><br></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">159 </span><b class="naam">Ijs</b><span class="prijs">€ 1.30</span><br></p></div></li>
+              
+                <li><div class="collapsible-header menutitel flow-text center z-depth-1"><b>Ben & Jerrys</b></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">1806 </span><b class="naam">Chocolate Chip Cookie Douge</b><span class="prijs">€ 6.90</span><br><span class="light subtext italic">Vanilleroomijs Met Stukjes Koekjesdeeg En Brokken Chocolade
+</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">1807 </span><b class="naam">New York Super Fudge Chunk</b><span class="prijs">€ 6.90</span><br><span class="light subtext italic">Chocoladeroomijs Met Brokken Wit En Donkere Chocolade Pecannoten, Walnoten En Gecote Amandelen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">1809 </span><b class="naam">Chunky Monkey</b><span class="prijs">€ 6.90</span><br><span class="light subtext italic">Banaanroomijs Met Walnoten En Belachelijk Grote Brokken Chocolade</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">2000 </span><b class="naam">Niet in Voorraad</b><span class="prijs">€ 6.90</span><br><span class="light subtext italic">Chocolade Ijs Met Slierten Van Vanille Ijs En Cacaofantasie</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">2001 </span><b class="naam">Chocolate Fudge Brownies</b><span class="prijs">€ 6.90</span><br><span class="light subtext italic">Chocoladeroomijs Met Stukken Chocolade Cake</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">2002 </span><b class="naam">Strawberry Cheesecake</b><span class="prijs">€ 6.90</span><br><span class="light subtext italic">Aardbeien Cheesecakeroomijs Met Aardbeien En Een Sliert Koekkruimels</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">2003 </span><b class="naam">Caramel Chew Chew</b><span class="prijs">€ 6.90</span><br><span class="light subtext italic">Caramelroomijs Met Slierten Caramel En Gechocolateerde Caramel Brokken</span></p></div></li>
+              
+<li><div class="collapsible-header menutitel flow-text center z-depth-1"><b>Rijsttafels</b></div></li>
+                      <li><div class="collapsible-header menutitel flow-text center z-depth-1"><b>1 Persoon Rijsttafels</b></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">112a </span><b class="naam">Chinese Rijsttafel voor 1 persoon met kippensoep</b><span class="prijs">€ 14.50</span><br><span class="light subtext italic">kippensoep, babi pangang, koe lou yuk, tjap tjoy, foe yong hai, 1 stokje sate, kroepoek en dessert</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">112a </span><b class="naam">Chinese Rijsttafel voor 1 persoon met tomatensoep</b><span class="prijs">€ 14.50</span><br><span class="light subtext italic">tomatensoep, babi pangang, koe lou yuk, tjap tjoy, foe yong hai, 1 stokje sate, kroepoek en dessert</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">113a </span><b class="naam">Indische Rijsttafel voor 1 persoon met kippensoep</b><span class="prijs">€ 14.50</span><br><span class="light subtext italic">kippensoep, witte rijst, babi ketjap, rendang, ajam rica rica, sajur lodeh, sate babi, atjar campur, augurk, gado gado, pinda, spiegel-ei en 1 dessert.</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">113a </span><b class="naam">Indische Rijsttafel voor 1 persoon met tomatensoep</b><span class="prijs">€ 14.50</span><br><span class="light subtext italic">tomatensoep, witte rijst, babi ketjap, rendang, ajam rica rica, sajur lodeh, sate babi, atjar campur, augurk, gado gado, pinda, spiegel-ei en 1 dessert.</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+              
+                      <li><div class="collapsible-header menutitel flow-text center z-depth-1"><b>2 Personen Rijsttafels</b></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">112b </span><b class="naam">Chinese Rijsttafel voor 2 personen met kippensoep</b><span class="prijs">€ 29.00</span><br><span class="light subtext italic">kippensoep, babi pangang, koe lou yuk, tjap tjoy, foe yong hai, 2 stokjes sate, kroepoek en 2 desserts</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">112b </span><b class="naam">Chinese Rijsttafel voor 2 personen met tomatensoep</b><span class="prijs">€ 29.00</span><br><span class="light subtext italic">tomatensoep, babi pangang, koe lou yuk, tjap tjoy, foe yong hai, 2 stokjes sate, kroepoek en 2 desserts</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">113b </span><b class="naam">Indische Rijsttafel voor 2 personen met kippensoep</b><span class="prijs">€ 29.00</span><br><span class="light subtext italic">kippensoep, witte rijst, babi ketjap, rendang, ajam rica rica, sajur lodeh, sate babi, atjar campur, augurk, gado gado, pinda, spiegel-ei en dessert. Vanaf 2 pers extra: pisang goreng</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">113b </span><b class="naam">Indische Rijsttafel voor 2 personen met tomatensoep</b><span class="prijs">€ 29.00</span><br><span class="light subtext italic">tomatensoep, witte rijst, babi ketjap, rendang, ajam rica rica, sajur lodeh, sate babi, atjar campur, augurk, gado gado, pinda, spiegel-ei en dessert. Vanaf 2 pers extra: pisang goreng</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">1600 </span><b class="naam">Kantonese Rijsttafel voor 2 personen</b><span class="prijs">€ 36.50</span><br><span class="light subtext italic">wan tan soep, kantonese voorjaarsrolletjes, geroosterd varkensvlees, blokjes kip met verse ananas, gesauteerde chinese garnalen met 5 kleuren garnituur en 2 desserts.</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">1700a </span><b class="naam">Szechuan Rijsttafel voor 2 personen</b><span class="prijs">€ 39.50</span><br><span class="light subtext italic">zure pikante soep, voorjaarsrolletjes, geroosterde peking eend, blokjes kip in paleisstijl, plakjes runderhaas gebakken en 2 desserts.</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+                 
+                      <li><div class="collapsible-header menutitel flow-text center z-depth-1"><b>3 Personen Rijsttafels</b></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">112c </span><b class="naam">Chinese Rijsttafel voor 3 personen met kippensoep</b><span class="prijs">€ 43.50</span><br><span class="light subtext italic">kippensoep, babi pangang, koe lou yuk, tjap tjoy, foe yong hai, 3 stokjes sate, kroepoek en desserts, vanaf 3 personen extra: kipfilet met kerrysaus</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">112c </span><b class="naam">Chinese Rijsttafel voor 3 personen met tomatensoep</b><span class="prijs">€ 43.50</span><br><span class="light subtext italic">tomatensoep, babi pangang, koe lou yuk, tjap tjoy, foe yong hai, 3 stokjes sate, kroepoek en desserts, vanaf 3 personen extra: kipfilet met kerrysaus</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">113c </span><b class="naam">Indische Rijsttafel voor 3 personen met kippensoep</b><span class="prijs">€ 43.50</span><br><span class="light subtext italic">kippensoep, witte rijst, babi ketjap, rendang, ajam rica rica, sajur lodeh, sate babi, atjar campur, augurk, gado gado, pinda, spiegel-ei en desserts. Vanaf 2 pers extra: pisang goreng</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">113c </span><b class="naam">Indische Rijsttafel voor 3 personen met tomatensoep</b><span class="prijs">€ 43.50</span><br><span class="light subtext italic">tomatensoep, witte rijst, babi ketjap, rendang, ajam rica rica, sajur lodeh, sate babi, atjar campur, augurk, gado gado, pinda, spiegel-ei en desserts. Vanaf 2 pers extra: pisang goreng</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">1600b </span><b class="naam">Kantonese Rijsttafel voor 3 personen</b><span class="prijs">€ 54.75</span><br><span class="light subtext italic">wan tan soep, kantonese voorjaarsrolletjes, geroosterd varkensvlees, blokjes kip met verse ananas, gesauteerde chinese garnalen met 5 kleuren garnituur en desserts. vanaf 3 personen extra: plakjes runderhaas met broccoli</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">1700b </span><b class="naam">Szechuan Rijsttafel voor 3 personen</b><span class="prijs">€ 59.75</span><br><span class="light subtext italic">zure pikante soep, voorjaarsrolletjes, geroosterde peking eend, blokjes kip in paleisstijl, plakjes runderhaas gebakken en 2 desserts. vanaf 3 personen extra: krokant gebakken chinese garnalen</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+                 
+                      <li><div class="collapsible-header menutitel flow-text center z-depth-1"><b>4 Personen Rijsttafels</b></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">113d </span><b class="naam"> Indische Rijsttafel voor 4 personen met kippensoep</b><span class="prijs">€ 58.00</span><br><span class="light subtext italic">kippensoep, witte rijst, babi ketjap, rendang, ajam rica rica, sajur lodeh, sate babi, atjar campur, augurk, gado gado, pinda, spiegel-ei en dessert. Vanaf 2 pers extra: pisang goreng</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">113d </span><b class="naam">Indische Rijsttafel voor 4 personen met tomatensoep</b><span class="prijs">€ 58.00</span><br><span class="light subtext italic">tomatensoep, witte rijst, babi ketjap, rendang, ajam rica rica, sajur lodeh, sate babi, atjar campur, augurk, gado gado, pinda, spiegel-ei en dessert. Vanaf 2 pers extra: pisang goreng</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">1600c </span><b class="naam">Kantonese Rijsttafel voor 4 personen</b><span class="prijs">€ 73.00</span><br><span class="light subtext italic">wan tan soep, kantonese voorjaarsrolletjes, geroosterd varkensvlees, blokjes kip met verse ananas, gesauteerde chinese garnalen met 5 kleuren garnituur en 2 desserts. vanaf 3 personen extra: plakjes runderhaas met broccoli</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+<li><div class="collapsible-header lotuskleur flow-text"><p><span class="nummer">1700c </span><b class="naam">Szechuan Rijsttafel voor 4 personen</b><span class="prijs">€ 76.00</span><br><span class="light subtext italic">zure pikante soep, voorjaarsrolletjes, geroosterde peking eend, blokjes kip in paleisstijl, plakjes runderhaas gebakken en 2 desserts. vanaf 3 personen extra: krokant gebakken chinese garnalen</span><br><span class="micro light">Keuze uit: Witte Rijst, Nasi, Bami, Mihoen</span></p></div></li>
+                 
+                  </ul>
+                </div>
+              </li>
+
+            </ul>
+          </div>
+       
+
+    </div>
+    
+
+            <div id="bezorggebied" class="container moremargins">
+      <ul class="collapsible" data-collapsible="accordion">
+        <li class="lotuskleur">
+            <div  class="collapsible-header lotuskleurdonker center"><i class="material-icons ">location_on</i><span class="menukaart">Bezorggebied</span></div>
+          <div class="collapsible-body lotuskleur lighten-4 containersmall">
+
+   <table class="containersmall bordered striped">
+  <tbody>
+    <tr>
+      <th>Postcode</th>
+      <th>Wijknaam</th>
+      <th>Minimum</th>
+      <th>Bezorging</th>
+      <th style="white-space: nowrap;">Gratis v.a.</th>
+    </tr>
+    <tr>
+      <td class="postcode">9711</td>
+      <td class="wijknaam">Groningen - Binnenstad-Zuid</td>
+      <td>€ 7.50</td>
+      <td>€ 1.50</td>
+      <td>€ 9.80</td>
+    </tr>
+    <tr>
+      <td class="postcode">9712</td>
+      <td class="wijknaam">Groningen - Stadscentrum</td>
+      <td>€ 7.50</td>
+      <td>€ 1.50</td>
+      <td>€ 9.80</td>
+    </tr>
+    <tr>
+      <li><td class="postcode">9713</td></li>
+      <td class="wijknaam">Groningen - Oosterparkbuurt</td>
+      <td>€ 7.50</td>
+      <td>€ 1.50</td>
+      <td>€ 9.80</td>
+    </tr>
+    <tr>
+      <td class="postcode">9714</td>
+      <td class="wijknaam">Groningen - Korrewegbuurt</td>
+      <td>€ 7.50</td>
+      <td>€ 1.50</td>
+      <td>€ 9.80</td>
+    </tr>
+    <tr>
+      <td class="postcode">9715</td>
+      <td class="wijknaam">Groningen - Oost-Indischebuurt</td>
+      <td>€ 7.50</td>
+      <td>€ 1.50</td>
+      <td>€ 9.80</td>
+    </tr>
+    <tr>
+      <td class="postcode">9716</td>
+      <td class="wijknaam">Groningen - De Hoogte</td>
+      <td>€ 7.50</td>
+      <td>€ 1.50</td>
+      <td>€ 9.80</td>
+    </tr>
+    <tr>
+      <td class="postcode">9717</td>
+      <td class="wijknaam">Groningen - Oranjebuurt</td>
+      <td>€ 7.50</td>
+      <td>€ 1.50</td>
+      <td>€ 9.80</td>
+    </tr>
+    <tr>
+      <td class="postcode">9718</td>
+      <td class="wijknaam">Groningen - Schildersbuurt</td>
+      <td>€ 7.50</td>
+      <td>€ 1.50</td>
+      <td>€ 9.80</td>
+    </tr>
+    <tr>
+      <td class="postcode">9721</td>
+      <td class="wijknaam">Groningen - De Wijert-Noord</td>
+      <td>€ 7.50</td>
+      <td>€ 1.50</td>
+      <td>€ 9.80</td>
+    </tr>
+    <tr>
+      <td class="postcode">9722</td>
+      <td class="wijknaam">Groningen - Coendersborg</td>
+      <td>€ 7.50</td>
+      <td>€ 1.50</td>
+      <td>€ 9.80</td>
+    </tr>
+    <tr>
+      <td class="postcode">9723</td>
+      <td class="wijknaam">Groningen - Euvelgunne</td>
+      <td>€ 7.50</td>
+      <td>€ 1.50</td>
+      <td>€ 50.00</td>
+    </tr>
+    <tr>
+      <td class="postcode">9724</td>
+      <td class="wijknaam">Groningen - Oosterpoortbuurt</td>
+      <td>€ 7.50</td>
+      <td>€ 1.50</td>
+      <td>€ 9.80</td>
+    </tr>
+    <tr>
+      <td class="postcode">9725</td>
+      <td class="wijknaam">Groningen - Rivierenbuurt</td>
+      <td>€ 7.50</td>
+      <td>€ 1.50</td>
+      <td>€ 9.80</td>
+    </tr>
+    <tr>
+      <td class="postcode">9726</td>
+      <td class="wijknaam">Groningen - Zeeheldenbuurt</td>
+      <td>€ 7.50</td>
+      <td>€ 1.50</td>
+      <td>€ 9.80</td>
+    </tr>
+    <tr>
+      <td class="postcode">9727</td>
+      <td class="wijknaam">Groningen - Stadspark</td>
+      <td>€ 7.50</td>
+      <td>€ 1.50</td>
+      <td>€ 9.80</td>
+    </tr>
+    <tr>
+      <td class="postcode">9728</td>
+      <td class="wijknaam">Groningen - Corpus Den Hoorn-Zuid</td>
+      <td>€ 7.50</td>
+      <td>€ 1.50</td>
+      <td>€ 9.80</td>
+    </tr>
+    <tr>
+      <td class="postcode">9731</td>
+      <td class="wijknaam">Groningen - Ulgersmabuurt</td>
+      <td>€ 7.50</td>
+      <td>€ 1.50</td>
+      <td>€ 9.80</td>
+    </tr>
+    <tr>
+      <td class="postcode">9732</td>
+      <td class="wijknaam">Groningen - Lewenborg-West</td>
+      <td>€ 7.50</td>
+      <td>€ 1.50</td>
+      <td>€ 9.80</td>
+    </tr>
+    <tr>
+      <td class="postcode">9734</td>
+      <td class="wijknaam">Groningen - Ruischerbrug</td>
+      <td>€ 7.50</td>
+      <td>€ 1.50</td>
+      <td>€ 9.80</td>
+    </tr>
+    <tr>
+      <td class="postcode">9735</td>
+      <td class="wijknaam">Groningen - Bovenstreek</td>
+      <td>€ 7.50</td>
+      <td>€ 1.50</td>
+      <td>€ 9.80</td>
+    </tr>
+    <tr>
+      <td class="postcode">9736</td>
+      <td class="wijknaam">Groningen - Beijum-Oost</td>
+      <td>€ 7.50</td>
+      <td>€ 1.50</td>
+      <td>€ 9.80</td>
+    </tr>
+    <tr>
+      <td class="postcode">9737</td>
+      <td class="wijknaam">Groningen - Beijum-West</td>
+      <td>€ 7.50</td>
+      <td>€ 1.50</td>
+      <td>€ 9.80</td>
+    </tr>
+    <tr>
+      <td class="postcode">9738</td>
+      <td class="wijknaam">Groningen - Koningslaagte</td>
+      <td>€ 7.50</td>
+      <td>€ 1.50</td>
+      <td>€ 9.80</td>
+    </tr>
+    <tr>
+      <td class="postcode">9741</td>
+      <td class="wijknaam">Groningen - Selwerd</td>
+      <td>€ 7.50</td>
+      <td>€ 1.50</td>
+      <td>€ 9.80</td>
+    </tr>
+    <tr>
+      <td class="postcode">9742</td>
+      <td class="wijknaam">Groningen - Paddepoel-Noord</td>
+      <td>€ 7.50</td>
+      <td>€ 1.50</td>
+      <td>€ 9.80</td>
+    </tr>
+    <tr>
+      <td class="postcode">9743</td>
+      <td class="wijknaam">Groningen - Vinkhuizen-Zuid</td>
+      <td>€ 7.50</td>
+      <td>€ 1.50</td>
+      <td>€ 9.80</td>
+    </tr>
+    <tr>
+      <td class="postcode">9747</td>
+      <td class="wijknaam">Groningen - Universiteitscomplex Groningen</td>
+      <td>€ 7.50</td>
+      <td>€ 1.50</td>
+      <td>€ 9.80</td>
+    </tr>
+    <tr>
+      <td class="postcode">9745</td>
+      <td class="wijknaam">Groningen - Hoogkerk-Dorp</td>
+      <td>€ 7.50</td>
+      <td>€ 1.50</td>
+      <td>€ 9.80</td>
+    </tr>
+    <tr>
+      <td class="postcode">9746</td>
+      <td class="wijknaam">Groningen - Leegkerk</td>
+      <td>€ 7.50</td>
+      <td>€ 1.50</td>
+      <td>€ 9.80</td>
+    </tr>
+    <tr>
+      <td class="postcode">9733</td>
+      <td class="wijknaam">Groningen - Lewenborg-Noord</td>
+      <td>€ 7.50</td>
+      <td>€ 1.50</td>
+      <td>€ 9.80</td>
+    </tr>
+  </tbody>
+</table>
+      </div></div>
+
+    <div class="container moremargins pictextcontainer z-depth-1 center">
+
+      <div class="row nomargins ">
+        <div class="col s12 ">
+          <span class="flow-text ">De Blauwe Lotus kan ook uw catering verzorgen. Voor zowel bedrijven als particulieren is de Blauwe Lotus al 20 jaar een begrip in catering! Indien u geïnteresseerd bent in de mogelijkheden dan kunt u altijd contact met ons opnemen.</span></div>
+      </div>
+
+    </div>
+    <div class="parallax-container valign-wrapper">
+      <div class="section no-pad-bot valign">
+        <div class="container">
+          <div class="row center black-text nomargins">
+
+            <div class="col s4 offset-s4">
+              <div class="icon-block transbg">
+<img src="img/drinken.png" class="drink" alt="Drinken">
+
+                <p class="light flow-text morepadbtm">Gratis blikje drinken bij iedere bestelling!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="parallax"><img src="img/background2.jpg" alt="De Blauwe Lotus"></div>
+    </div>
+
+    <div class="container">
+      <div class="section">
+
+        <div class="row">
+          <div class="col s12 center">
+            <h3><i class="mdi-action-star-rate brown-text center"></i></h3>
+            <h4>Vind ons op de kaart</h4>
+
+          </div>
+        </div>
+        <div class="overlay"></div>
+        <div class="center moremargins z-depth-3" id="map"></div>
+        <div class="contactform center">
+              <form class="col s8 offset-s2">
+
+                <div class="row">
+                  <div class="input-field col s12 ">
+                    <i class="material-icons prefix ">account_circle</i>
+                    <input id="name" type="text" class="validate">
+                    <label for="name">Naam</label>
+                  </div></div>
+
+                  <div class="row">
+                  <div class="input-field col s12">
+                    <i class="material-icons prefix">email</i>
+                    <input id="email" type="email" class="validate">
+                    <label for="email ">E-Mail</label>
+                  </div>
+                </div>
+                <!--row-->
+
+                <div class="row">
+                  <div class="input-field col s12">
+                    <i class="material-icons prefix">subject</i>
+                    <input id="message-sub" type="email" class="validate">
+                    <label for="message-sub">Titel</label>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="input-field col s12">
+                    <i class="material-icons prefix">mode_edit</i>
+                    <textarea id="text_area" class="materialize-textarea"></textarea>
+                    <label for="text_area">Tekst</label>
+                  </div>
+                </div>
+
+
+                <div>
+                  <a class="waves-effect waves-light btn light-blue lighten-1">Stuur<i class="mdi-content-send right"></i></a>
+                </div>
+              </form>
+            </div>
+      </div>
+    </div>
+
+
+  </div>
+  <footer class="page-footer lotuskleur" id="contact">
+    <div class="container center nomargins">
+      <div class="row nomargins">
+        <div class="col s12 m6">
+          <h5 class="lotuslogo-text paratext ">De Blauwe Lotus</h5>
+          <p class="black-text text-lighten-4">Nieuwe Ebbingestraat 111<br> 9712 NJ Groningen<br> 050-3143366</p>
+
+
+        </div>
+        <div class="col s12 m6 center">
+          <h5 class="black-text">Connect</h5>
+          <ul id="dropdown2" class="dropdown-content z-depth-3">
+
+
+            <li class="facebook">
+              <a onclick="window.open('https://www.facebook.com/blauwelotusgroningen', 'Connect op Facebook', 'width=400px, height=700px'); return false;" class="waves-effect waves-facebook facebook center" style="color:black;"><img src="img/facebook.png" class="smedia" alt="Facebook"></a>
+            </li>
+
+            <li class="google">
+              <a onclick="window.open('https://plus.google.com/+Blauwe-lotusNl/', 'Share on Google+', 'width=400px, height=700px'); return false;" class="waves-effect waves-google google center" style="color:black;"><img src="img/google.png" class="smedia" alt="Google+"></a>
+            </li>
+
+            <li class="twitter">
+              <a href="http://twitter.com/share?url=http://www.blauwe-lotus.nl&text=Net lekker gegeten bij de Blauwe lotus" class="waves-effect waves-twitter twitter center" style="color:black;"><img src="img/twitter.png" class="smedia" alt="Twitter"></a>
+            </li>
+          </ul>
+          <a class="btn lotuskleur darken-1 dropdown-button moremargins black-text" href="#!" data-activates="dropdown2" data-beloworigin="true">Share<i class="mdi-social-share right"></i></a>
+
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container center">
+        <div class="row">
+          <div class="col s6 black-text valign-wrapper">
+              Made with <span class="hearts valign">❤</span> in <span class="light">050</span></div>
+          <div class="col s6 black-text"> Built with <a href="http://materializecss.com/" class="materialize">Materialize</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 
 
   <!--  JS Libraries -->
@@ -57,6 +906,7 @@
   <script src="js/materialize.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script>
   <script src="js/init.js"></script>
+    <script src="js/list.min.js"></script>
   <!--  /JS Libraries -->
 </body>
 <!-- key=AIzaSyBohFFWtiIuJ5N7tvI7MtDFN-pIdTRd8Js& !-->
