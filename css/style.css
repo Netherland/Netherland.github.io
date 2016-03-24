@@ -265,6 +265,10 @@ margin-top: 18vh;
     padding-top:35px;
 }
 
+.morepadbtm {
+    padding-bottom:10px;
+}
+
 .nopadtop {
     padding-top:0px;
 }
@@ -439,6 +443,7 @@ box-shadow: 0px 0px 36px 0px rgba(204,37,45,1);
 
 .drink {
     width:100%;
+    padding:30px;
 }
 
 .italic {
@@ -472,4 +477,39 @@ box-shadow: 0px 0px 36px 0px rgba(204,37,45,1);
 
 .alert {
     background-color:rgba(244,67,54,0.5);
+}
+
+div.collapsible-header.lotuskleur.flow-text, div.collapsible-header.menutitel.flow-text.center.z-depth-1.name {
+    cursor:default;
+}
+
+.bestelknop {
+    -webkit-animation: mymove 2s infinite; /* Chrome, Safari, Opera */ 
+    animation: mymove 2s infinite;
+}
+
+/* Chrome, Safari, Opera */ 
+@-webkit-keyframes mymove {
+    0%   {-webkit-box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0.75);
+-moz-box-shadow:    0px 0px 0px 0px rgba(255, 255, 255, 0.75);
+box-shadow:         0px 0px 0px 0px rgba(255, 255, 255, 0.75);}
+    50%  {-webkit-box-shadow: 0px 0px 28px 0px rgba(255, 0, 0, 0.75);
+-moz-box-shadow:    0px 0px 28px 0px rgba(255, 0, 0, 0.75);
+box-shadow:         0px 0px 28px 0px rgba(255, 0, 0, 0.75);}
+    100% {-webkit-box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0.75);
+-moz-box-shadow:    0px 0px 0px 0px rgba(255, 255, 255, 0.75);
+box-shadow:         0px 0px 0px 0px rgba(255, 255, 255, 0.75);}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    0%   {-webkit-box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0.75);
+-moz-box-shadow:    0px 0px 0px 0px rgba(255, 255, 255, 0.75);
+box-shadow:         0px 0px 0px 0px rgba(255, 255, 255, 0.75);}
+    50%  {-webkit-box-shadow: 0px 0px 28px 0px rgba(255, 0, 0, 0.75);
+-moz-box-shadow:    0px 0px 28px 0px rgba(255, 0, 0, 0.75);
+box-shadow:         0px 0px 28px 0px rgba(255, 0, 0, 0.75);}
+    100% {-webkit-box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0.75);
+-moz-box-shadow:    0px 0px 0px 0px rgba(255, 255, 255, 0.75);
+box-shadow:         0px 0px 0px 0px rgba(255, 255, 255, 0.75);}
 }

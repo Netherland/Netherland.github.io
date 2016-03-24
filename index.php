@@ -95,7 +95,7 @@
                 <h2 class="center black-text iconsymbol"><i class="material-icons">call</i></h2></div>
               <h5 class="center">Telefonisch bestellen</h5>
 
-              <p class="light center">U kunt ons telefonisch bereiken op<br><span class="infoimportant black-text">050-3143366</span><br><a class="btn-large waves-effect waves-light lotuskleur lighten-1 black-text lotuskleur hide-on-med-and-up" href="tel:0503143366">Bel Nu</a><br></p>
+              <p class="light center">U kunt ons telefonisch bereiken op<br><span class="infoimportant black-text">050-3143366</span><br><a class="btn-large moremargins waves-effect waves-light lotuskleur lighten-1 black-text lotuskleur hide-on-med-and-up z-depth-1" href="tel:0503143366">Bel Nu</a><br></p>
             </div>
           </div>
 
@@ -108,7 +108,7 @@
               <p class="light center">U kunt met de onderstaande knop bestellen op de website
               </p>
               <div class="row center">
-                <a class="btn-large waves-effect waves-light lotuskleur lighten-1 black-text lotuskleur hide-on-med-and-up" href="http://bestellen.blauwe-lotus.nl/">Bestel Nu</a>
+                <a class="btn-large waves-effect waves-light lotuskleur lighten-1 black-text lotuskleur hide-on-med-and-up bestelknop z-depth-1 moremargins" href="http://bestellen.blauwe-lotus.nl/">Bestel Nu</a>
               </div>
 
             </div>
@@ -121,17 +121,17 @@
                 <h2 class="center black-text iconsymbol"><i class="material-icons">business</i></h2></div>
               <h5 class="center">Zelf afhalen</h5>
 
-              <p class="light center nomargins">U kunt ook zelf afhalen op het volgende adres<br><span class="infoimportant">Nieuwe Ebbingestraat 111<br>9712 NJ Groningen</span></p>
+              <p class="light center">U kunt ook zelf afhalen op het volgende adres<br><span class="infoimportant">Nieuwe Ebbingestraat 111<br>9712 NJ Groningen</span></p>
               <div class="row center nomargins">
-                <a class="btn-large waves-effect waves-light lotuskleur lighten-1 black-text lotuskleur ss hide-on-med-and-up" href="#map">Kaart</a>
+                <a class="btn-large waves-effect waves-light lotuskleur lighten-1 black-text lotuskleur ss hide-on-med-and-up z-depth-1 moremargins" href="#map">Kaart</a>
               </div>
             </div>
           </div>
         </div>
         <div class="row hide-on-small-only center">
-          <div class="col s4"><a class="btn-large waves-effect waves-light lotuskleur lighten-1 black-text lotuskleur tooltipped" data-position="top" data-delay="50" data-tooltip="werkt alleen op mobiel" href="tel:0503143366">Bel Nu</a></div>
-          <div class="col s4"><a class="btn-large waves-effect waves-light lotuskleur lighten-1 black-text lotuskleur" href="http://bestellen.blauwe-lotus.nl/">Bestel Nu</a></div>
-          <div class="col s4"><a class="btn-large waves-effect waves-light lotuskleur lighten-1 black-text lotuskleur ss" href="#map">Kaart</a></div>
+          <div class="col s4"><a class="btn-large waves-effect waves-light lotuskleur lighten-1 black-text lotuskleur tooltipped z-depth-1" data-position="top" data-delay="50" data-tooltip="werkt alleen op mobiel" href="tel:0503143366">Bel Nu</a></div>
+          <div class="col s4"><a class="btn-large waves-effect waves-light lotuskleur lighten-1 black-text lotuskleur bestelknop z-depth-1" href="http://bestellen.blauwe-lotus.nl/">Bestel Nu</a></div>
+          <div class="col s4"><a class="btn-large waves-effect waves-light lotuskleur lighten-1 black-text lotuskleur ss z-depth-1" href="#map">Kaart</a></div>
         </div>
       </div>
     </div>
@@ -270,7 +270,7 @@
               <div class="icon-block transbg">
 <img src="img/drinken.png" class="drink" alt="Drinken">
 
-                <p class="light flow-text">Gratis blikje drinken bij iedere bestelling!</p>
+                <p class="light flow-text morepadbtm">Gratis blikje drinken bij iedere bestelling!</p>
               </div>
             </div>
           </div>
@@ -371,8 +371,8 @@
     <div class="footer-copyright">
       <div class="container center">
         <div class="row">
-          <div class="col s6 black-text">
-            Made with <span class="hearts">❤</span> in <span class="light">050</span></div>
+          <div class="col s6 black-text valign-wrapper">
+              Made with <span class="hearts valign">❤</span> in <span class="light">050</span></div>
           <div class="col s6 black-text"> Built with <a href="http://materializecss.com/" class="materialize">Materialize</a>
           </div>
         </div>

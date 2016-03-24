@@ -1,17 +1,23 @@
 # De Blauwe Lotus Website
 
+## Improvements over de oude site
+* Fully responsive
+* Volledig menu
+* Filterzoeken menu
+* Gebruiksvriendelijkheid vergroot
+
 ## Wat er nog moet veranderen:
 
 * Menukaart bewerken met de juiste gegevens
-* ~~Search bar functionaliteit geven~~
+
 * Menukaart stijlen
-* Parallax text boxes invullen
+
 * Google Maps tekstvak met adres
 * Share buttons fixen
 * Sterrenbeoordeling fixen
 * Foto's bewerken/maken
-* Menukaart scroll to top on open li
-
+* ~~Parallax text boxes invullen~~
+* ~~Search bar functionaliteit geven~~
 ## Compability Issues
 
 Browsers tested:
