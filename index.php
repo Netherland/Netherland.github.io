@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    
+
 
   <!-- Geotags -->
   <meta name="geo.placename" content="Nieuwe Ebbingestraat 111, 9712 NJ, Groningen">
@@ -40,7 +40,7 @@
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <!-- /CSS  -->
 </head>
@@ -49,7 +49,7 @@
   <div class="navbar-fixed">
     <nav class="lotuskleur z-depth-4" role="navigation">
       <div class="nav-wrapper marginsides">
-        <a href="#index-banner" class="ss"><img src="img/logo.png" class="brand-logo" alt="De Blauwe Lotus"></a>
+        <img src="img/logo.png" class="brand-logo" alt="De Blauwe Lotus">
         <ul class="right hide-on-med-and-down">
           <li><a href="#bestellen" class="ss">Bestellen</a></li>
           <li><a href="#openingstijden" class="ss">Openingstijden</a></li>
@@ -60,7 +60,7 @@
         <ul id="nav-mobile" class="side-nav lotuskleur">
           <li><a href="#bestellen" class="ss sn" onclick=" closeSideNav()">Bestellen</a></li>
           <li><a href="#openingstijden" class="ss sn" onclick=" closeSideNav()">Openingstijden</a></li>
-                    <li><a href="#menukaart" class="ss sn" onclick=" closeSideNav()">Menukaart</a></li>
+          <li><a href="#menukaart" class="ss sn" onclick=" closeSideNav()">Menukaart</a></li>
           <li><a href="#contact" class="ss sn" onclick=" closeSideNav()">Contact</a></li>
 
         </ul>
@@ -252,9 +252,9 @@
       </div>
     </div>
 
-      <?php require 'menukaart.html';?>
+    <?php require 'menukaart.html';?>
 
-            <?php require 'bezorggebied.html';?>
+    <?php require 'bezorggebied.html';?>
 
     <div class="container moremargins pictextcontainer z-depth-1 center">
 
@@ -271,7 +271,7 @@
 
             <div class="col s12 m4 offset-m4">
               <div class="icon-block transbg drinkcontainer">
-<img src="img/drinken.png" class="drink" alt="Drinken">
+                <img src="img/drinken.png" class="drink" alt="Drinken">
 
                 <p class="light flow-text morepadbtm">Gratis blikje drinken of loempia bij iedere bestelling!</p>
               </div>
@@ -295,46 +295,47 @@
         <div class="overlay"></div>
         <div class="center moremargins z-depth-3" id="map"></div>
         <div class="contactform center">
-              <form class="col s8 offset-s2">
+          <form class="col s8 offset-s2">
 
-                <div class="row">
-                  <div class="input-field col s12 ">
-                    <i class="material-icons prefix ">account_circle</i>
-                    <input id="name" type="text" class="validate">
-                    <label for="name">Naam</label>
-                  </div></div>
-
-                  <div class="row">
-                  <div class="input-field col s12">
-                    <i class="material-icons prefix">email</i>
-                    <input id="email" type="email" class="validate">
-                    <label for="email ">E-Mail</label>
-                  </div>
-                </div>
-                <!--row-->
-
-                <div class="row">
-                  <div class="input-field col s12">
-                    <i class="material-icons prefix">subject</i>
-                    <input id="message-sub" type="email" class="validate">
-                    <label for="message-sub">Titel</label>
-                  </div>
-                </div>
-
-                <div class="row">
-                  <div class="input-field col s12">
-                    <i class="material-icons prefix">mode_edit</i>
-                    <textarea id="text_area" class="materialize-textarea"></textarea>
-                    <label for="text_area">Tekst</label>
-                  </div>
-                </div>
-
-
-                <div>
-                  <a class="waves-effect waves-light btn light-blue lighten-1">Stuur<i class="mdi-content-send right"></i></a>
-                </div>
-              </form>
+            <div class="row">
+              <div class="input-field col s12 ">
+                <i class="material-icons prefix ">account_circle</i>
+                <input id="name" type="text" class="validate">
+                <label for="name">Naam</label>
+              </div>
             </div>
+
+            <div class="row">
+              <div class="input-field col s12">
+                <i class="material-icons prefix">email</i>
+                <input id="email" type="email" class="validate">
+                <label for="email ">E-Mail</label>
+              </div>
+            </div>
+            <!--row-->
+
+            <div class="row">
+              <div class="input-field col s12">
+                <i class="material-icons prefix">subject</i>
+                <input id="message-sub" type="email" class="validate">
+                <label for="message-sub">Titel</label>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="input-field col s12">
+                <i class="material-icons prefix">mode_edit</i>
+                <textarea id="text_area" class="materialize-textarea"></textarea>
+                <label for="text_area">Tekst</label>
+              </div>
+            </div>
+
+
+            <div>
+              <a class="waves-effect waves-light btn light-blue lighten-1">Stuur<i class="mdi-content-send right"></i></a>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
 
@@ -352,11 +353,10 @@
         <div class="col s12 m6 center">
           <h5 class="black-text">Connect</h5>
 
-<a href="https://www.facebook.com/sharer/sharer.php?u=htt://www.blauwe-lotus.nl&t=" title="Share on Facebook" target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&t=' + encodeURIComponent(document.URL)); return false;"><img src="img/Facebook.svg"  style="height:50px;margin-bottom:20px;"></a>
-<a href="https://twitter.com/intent/tweet?source=http://www.blauwe-lotus.nl&text=:%20http%3A%2F%2Fwww.blauwe-lotus.nl&via=blauwelotus" target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + ':%20'  + encodeURIComponent(document.URL)); return false;"><img src="img/Twitter.svg" style="height:50px;margin-bottom:20px;"></a>
-<a href="https://plus.google.com/share?url=http://www.blauwe-lotus.nl" target="_blank" title="Share on Google+" onclick="window.open('https://plus.google.com/share?url=http://www.blauwe-lotus.nl'); return false;"><img src="img/Google+.svg"  style="height:50px;margin-bottom:20px;"></a>
-        
-         
+          <a href="https://www.facebook.com/sharer/sharer.php?u=htt://www.blauwe-lotus.nl&t=" title="Share on Facebook" target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&t=' + encodeURIComponent(document.URL)); return false;"><img src="img/Facebook.svg" style="height:50px;margin-bottom:20px;"></a>
+          <a href="https://twitter.com/intent/tweet?source=http://www.blauwe-lotus.nl&text=:%20http%3A%2F%2Fwww.blauwe-lotus.nl&via=blauwelotus" target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + ':%20'  + encodeURIComponent(document.URL)); return false;"><img src="img/Twitter.svg" style="height:50px;margin-bottom:20px;"></a>
+          <a href="https://plus.google.com/share?url=http://www.blauwe-lotus.nl" target="_blank" title="Share on Google+" onclick="window.open('https://plus.google.com/share?url=http://www.blauwe-lotus.nl'); return false;"><img src="img/Google+.svg" style="height:50px;margin-bottom:20px;"></a>
+
 
         </div>
       </div>
@@ -365,7 +365,7 @@
       <div class="container center">
         <div class="row">
           <div class="col s6 black-text valign-wrapper">
-              Made with <span class="hearts valign">❤</span> in <span class="light">050</span></div>
+            Made with <span class="hearts valign">❤</span> in <span class="light">050</span></div>
           <div class="col s6 black-text"> Built with <a href="http://materializecss.com/" class="materialize">Materialize</a>
           </div>
         </div>
@@ -377,17 +377,19 @@
   <!--  JS Libraries -->
   <script src="https://code.jquery.com/jquery-1.12.2.min.js"></script>
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
+  <script src="js/materialize.min.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script>
   <script src="js/init.js"></script>
-    <script src="js/list.min.js"></script>
-	<script>(function(d, s, id) {
-	  var js, fjs = d.getElementsByTagName(s)[0];
-	  if (d.getElementById(id)) return;
-	  js = d.createElement(s); js.id = id;
-	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1";
-	  fjs.parentNode.insertBefore(js, fjs);
-	}(document, 'script', 'facebook-jssdk'));</script>
+  <script src="js/list.min.js"></script>
+  <script>
+    (function(d, s, id) {
+    	  var js, fjs = d.getElementsByTagName(s)[0];
+    	  if (d.getElementById(id)) return;
+    	  js = d.createElement(s); js.id = id;
+    	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1";
+    	  fjs.parentNode.insertBefore(js, fjs);
+    	}(document, 'script', 'facebook-jssdk'));
+  </script>
   <!--  /JS Libraries -->
 </body>
 <!-- key=AIzaSyBohFFWtiIuJ5N7tvI7MtDFN-pIdTRd8Js& !-->
