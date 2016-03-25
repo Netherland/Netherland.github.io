@@ -2,7 +2,8 @@
 <html lang="en">
 
 <head>
-
+  <script src="js/pace.min.js"></script>
+  <link href="css/flash.css" type="text/css" rel="stylesheet" media="screen,projection" />
 
   <!-- Geotags -->
   <meta name="geo.placename" content="Nieuwe Ebbingestraat 111, 9712 NJ, Groningen">
