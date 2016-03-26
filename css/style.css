@@ -14,6 +14,10 @@
   src: url('../font/alexbrush/alexbrush-webfont.eot?#iefix') format('embedded-opentype'), url('../font/alexbrush/alexbrush-webfont.woff') format('woff'), url('../font/alexbrush/alexbrush-webfont.ttf') format('truetype'), url('../font/alexbrush/alexbrush-webfont.svg#webfont') format('svg');
 }
 
+a {
+  color:#191E6E;
+}
+
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -71,7 +75,7 @@ footer.page-footer {
 }
 
 .materialize {
-  color: #ee6e73;
+  color: #29b6f6;
 }
 
 .waves-effect.waves-twitter .waves-ripple {
@@ -143,11 +147,23 @@ nav ul a {
 
 .btn:hover,
 .btn-large:hover {
-  background-color: #CCBE95 !important;
+  background-color: #CCBE95;
 }
 
 .lotus-text {
   color: #8D4623;
+}
+
+.blotus-text {
+    color:#191E6E;
+}
+
+.blotus-bg {
+    background-color:#191E6E;
+}
+
+.blotus-bg:hover {
+    background-color:#0D103B;
 }
 
 .smaller {
@@ -175,6 +191,10 @@ html {
   color: #191E6E !important;
   z-index: 3;
   font-family: AlexBrush;
+}
+
+.largetext {
+    font-size:45px;
 }
 
 #map {
@@ -221,7 +241,7 @@ nav ul a:hover {
 .iconcircle {
   height: 100px;
   width: 100px;
-  border: 3px solid black;
+  border: 3px solid #191E6E;
   border-radius: 100px;
   margin: 0px auto 0;
   background-color: rgba(255, 255, 255, 0.3);
@@ -282,9 +302,8 @@ nav ul a:hover {
   white-space: nowrap;
 }
 
-.stars > i:hover:before,
-.stars > i:hover ~ i:before {
-  text-shadow: 0px 0px 15px #ffff00;
+.fnomargins {
+    margin:0px;
 }
 
 .marginbottom {
@@ -473,54 +492,6 @@ input#search:focus {
 div.collapsible-header.lotuskleur.flow-text,
 div.collapsible-header.menutitel.flow-text.center.z-depth-1.name {
   cursor: default;
-}
-
-.bestelknop {
-  -webkit-animation: mymove 2s infinite;
-  /* Chrome, Safari, Opera */
-  animation: mymove 2s infinite;
-}
-
-
-/* Chrome, Safari, Opera */
-
-@-webkit-keyframes mymove {
-  0% {
-    -webkit-box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0.75);
-    -moz-box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0.75);
-    box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0.75);
-  }
-  50% {
-    -webkit-box-shadow: 0px 0px 28px 0px rgba(254, 236, 186, 0.75);
-    -moz-box-shadow: 0px 0px 28px 0px rgba(254, 236, 186, 0.75);
-    box-shadow: 0px 0px 28px 0px rgbargba(254, 236, 186, 0.75);
-  }
-  100% {
-    -webkit-box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0.75);
-    -moz-box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0.75);
-    box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0.75);
-  }
-}
-
-
-/* Standard syntax */
-
-@keyframes mymove {
-  0% {
-    -webkit-box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0.75);
-    -moz-box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0.75);
-    box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0.75);
-  }
-  50% {
-    -webkit-box-shadow: 0px 0px 28px 0px rgba(254, 236, 186, 0.75);
-    -moz-box-shadow: 0px 0px 28px 0px rgba(254, 236, 186, 0.75);
-    box-shadow: 0px 0px 28px 0px rgbargba(254, 236, 186, 0.75);
-  }
-  100% {
-    -webkit-box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0.75);
-    -moz-box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0.75);
-    box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0.75);
-  }
 }
 
 .nummer {
