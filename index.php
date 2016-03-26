@@ -71,6 +71,7 @@
   </div>
 
   <div id="index-banner" class="parallax-container z-depth-2 moremargins big">
+      <img src="img/lantern.png" alt="Lantaarn" class="lantaarn">
     <div class="section">
       <div class="container margintop">
         <h1 class="header center  text-lighten-2"><span class="boxxy3 nopadbtm"><img src="img/logo2.png" alt="De Blauwe Lotus" class="inside-logo"></span></h1>
@@ -288,7 +289,7 @@
 
         <div class="row">
           <div class="col s12 center">
-            <h3><i class="mdi-maps-place blotus-text center"></i></h3>
+            <h3><i class="mdi-maps-map blotus-text center"></i></h3>
             <h4>Vind ons op de kaart</h4>
 
           </div>
