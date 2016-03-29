@@ -119,6 +119,12 @@ function initMap() {
 
   });
   marker.addListener('click', toggleBounce);
+
+var infowindow = new google.maps.InfoWindow({
+  content:"De Blauwe Lotus<br>Nieuwe Ebbingestraat 111<br>9712 NJ Groningen"
+  });
+
+infowindow.open(map,marker);
 }
 
 function toggleBounce() {
