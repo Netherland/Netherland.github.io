@@ -70,8 +70,9 @@
     </nav>
   </div>
 
-  <div id="index-banner" class="parallax-container z-depth-2 moremargins big">
+  <div id="index-banner" class="parallax-container moremargins big">
       <img src="img/lantern.png" alt="Lantaarn" class="lantaarn">
+      <div class="shadow"></div>
     <div class="section">
       <div class="container margintop">
         <h1 class="header center  text-lighten-2"><span class="boxxy3 nopadbtm"><img src="img/logo2.png" alt="De Blauwe Lotus" class="inside-logo"></span></h1>
@@ -83,7 +84,7 @@
 
       </div>
     </div>
-    <div class="parallax z-depth-2"><img src="img/background1.jpg" alt="Blauwe Lotus"></div>
+    <div class="parallax"><img src="img/background1.jpg" alt="Blauwe Lotus"></div>
   </div>
   <div class="bigcontent">
 

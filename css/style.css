@@ -516,6 +516,15 @@ div.collapsible-header.menutitel.flow-text.center.z-depth-1.name {
   }
 }
 
+.shadow {
+  background-image:url("../img/foodshadow.png");
+  width:100%;
+  height:153px;
+  background-repeat:repeat-x;
+  position:absolute;
+  bottom:0px;
+}
+
 @media screen and (min-width: 600px) {
   html::-webkit-scrollbar-track,
   .menucontainer::-webkit-scrollbar-track,
