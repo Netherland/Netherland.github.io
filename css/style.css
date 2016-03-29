@@ -505,7 +505,7 @@ div.collapsible-header.menutitel.flow-text.center.z-depth-1.name {
 
 @media screen and (max-width: 600px) {
   .subtitle {
-    font-size: 5.9vw;
+    font-size: 5.7vw;
   }
   .bezorgcontainer {
     overflow-x: scroll;
