@@ -514,6 +514,9 @@ div.collapsible-header.menutitel.flow-text.center.z-depth-1.name {
   .lantaarn {
       display:none;
   }
+    .lantaarn2 {
+      display:none;
+  }
 }
 
 .shadow {
@@ -551,4 +554,9 @@ div.collapsible-header.menutitel.flow-text.center.z-depth-1.name {
 .lantaarn {
     position:absolute;
     left:32vw;
+}
+
+.lantaarn2 {
+    position:absolute;
+    left:64vw;
 }

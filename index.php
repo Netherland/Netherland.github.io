@@ -72,6 +72,7 @@
 
   <div id="index-banner" class="parallax-container moremargins big">
       <img src="img/lantern.png" alt="Lantaarn" class="lantaarn">
+            <img src="img/lantern.png" alt="Lantaarn" class="lantaarn2">
       <div class="shadow"></div>
     <div class="section">
       <div class="container margintop">
