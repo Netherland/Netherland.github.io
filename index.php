@@ -267,7 +267,11 @@
           <span class="flow-text ">De Blauwe Lotus kan ook uw catering verzorgen. Voor zowel bedrijven als particulieren is de Blauwe Lotus al 20 jaar een begrip in catering! Indien u geïnteresseerd bent in de mogelijkheden dan kunt u altijd contact met ons opnemen.</span></div>
       </div>
 
+
     </div>
+    <div class="container moremargins pictextcontainer z-depth-1 center">
+     <div class="col s12 flow-text">Download ook onze app!<br>
+      <a href="https://itunes.apple.com/nl/app/blauwe-lotus/id854397972?mt=8"><img src="img/app-store.png" class="z-depth-1" alt="Get it on the App Store"></a> <a href="https://play.google.com/store/apps/details?id=nl.sitedish.blauwelotus"><img src="img/google-store.png" class="z-depth-1" alt="Get it on Google Play"></a></div></div>
     <div class="parallax-container valign-wrapper">
       <div class="section no-pad-bot valign">
         <div class="container">
